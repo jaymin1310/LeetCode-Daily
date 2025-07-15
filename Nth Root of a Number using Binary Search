@@ -1,0 +1,34 @@
+long long function(long long i,int exp,long long m){
+  long long ans=1;
+  long long base=i;
+  while(exp>0){
+    if(exp%2){
+      exp--;
+      ans*=base;
+      if(ans>m)return ans;
+    }
+    else{
+      exp/=2;
+      base=base*base;
+      if(base>m)return base;
+    }
+  }
+  return ans;
+}
+int NthRoot(int n, int m) {
+  long long high=m,low=1,mid,ans=-1;
+  while(low<=high){
+    mid=(low+high)/2;
+    long long value=function(mid,n,m);
+    if(value==m){
+      return mid;
+    }
+    else if(value>m){
+      high=mid-1;
+    }
+    else{
+      low=mid+1;
+    }
+  }
+  return ans;
+}
