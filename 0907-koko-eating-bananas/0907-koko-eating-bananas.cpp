@@ -1,10 +1,9 @@
 class Solution {
 public:
-    long long findhour(long long ban,vector<int>arr,int n,int h){
+    long long findhour(int ban,vector<int>arr,int n){
         long long total=0;
         for(int i=0;i<n;i++){
-            total+=((arr[i]+ban-1)/ban);
-            if(total>h)return total;
+            total+=ceil((double)arr[i]/(double)ban);
         }
         return total;
     }
@@ -14,7 +13,7 @@ public:
         int low=1,high=mxbn,mid,ans;
         while(low<=high){
             mid=(low+high)/2;
-            long long result=findhour(mid,piles,n,h);
+            long long result=findhour(mid,piles,n);
             if(result<=h){
                 ans=mid;
                 high=mid-1;
