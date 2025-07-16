@@ -6,7 +6,7 @@ public:
         int n=nums.size();
         int sum=0,ans=0;
         while(l<=h){
-            mid=(l+h)/2;
+            mid=l+(h-l)/2;
             sum=0;
             for(int i=0;i<n;i++){
                 sum+=(nums[i]+mid-1)/mid;
