@@ -3,11 +3,12 @@ public:
     int smallestDivisor(vector<int>& nums, int th) {
         //agge min milega
         int l=1,h=*max_element(nums.begin(),nums.end()),mid;
+        int n=nums.size();
         int sum=0,ans=0;
         while(l<=h){
-            mid=l+(h-l)/2;
+            mid=(l+h)/2;
             sum=0;
-            for(int i=0;i<nums.size();i++){
+            for(int i=0;i<n;i++){
                 sum+=(nums[i]+mid-1)/mid;
             }
             if(sum<=th){
