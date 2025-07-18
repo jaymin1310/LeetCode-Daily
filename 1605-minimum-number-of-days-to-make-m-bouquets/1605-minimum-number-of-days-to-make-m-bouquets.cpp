@@ -15,13 +15,11 @@ public:
                 total++; 
                 cnt=0; 
             }
-        }
-        if(total>=m){
+            if(total>=m){
             return 1;
         }
-        else{
-            return 0;
         }
+      return 0;
     }
     int minDays(vector<int>& bloomDay, int m, int k) {
         int n=bloomDay.size();
