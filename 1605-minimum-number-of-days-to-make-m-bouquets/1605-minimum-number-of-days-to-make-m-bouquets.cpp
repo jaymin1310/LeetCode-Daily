@@ -28,10 +28,8 @@ public:
         int low=INT_MAX,high=INT_MIN,ans=-1;
         long long flow=1LL*m*k;
         if(flow>n)return ans;
-        for(int i=0;i<n;i++){
-            low=min(low,bloomDay[i]);
-            high=max(high,bloomDay[i]);
-        }
+        low = *min_element(bloomDay.begin(), bloomDay.end()), 
+        high = *max_element(bloomDay.begin(), bloomDay.end());
         while(low<=high){
             int mid=(low+high)/2;
             if(ispossible(bloomDay,mid,m,k)==1){
