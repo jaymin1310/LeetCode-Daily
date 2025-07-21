@@ -1,0 +1,41 @@
+// User function Template for C++
+
+class Solution {
+  public:
+    bool ispossible(vector<int>&arr,int dist,int cow,int n){
+        int cnt=1,left=0,right=1;
+        while(left<n && right<n){
+            if((arr[right]-arr[left]>=dist)){
+                cnt++;
+                left=right;
+                right++;
+            }
+            else{
+                right++;
+            }
+        }
+        if(cnt>=cow)return true;
+        return false;
+    }
+
+    int aggressiveCows(vector<int> &stalls, int k) {
+
+        // Write your code here
+        sort(stalls.begin(),stalls.end());
+        int n=stalls.size();
+        int maxel=stalls[n-1];
+        int minel=stalls[0];
+        int low=1,high=maxel-minel,mid,ans=0;
+        while(low<=high){
+            mid=(low+high)/2;
+            if(ispossible(stalls,mid,k,n)){
+                ans=mid;
+                low=mid+1;
+            }
+            else{
+                high=mid-1;
+            }
+        }
+        return ans;
+    }
+};
