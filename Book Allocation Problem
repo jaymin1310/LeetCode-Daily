@@ -1,0 +1,35 @@
+class Solution {
+  public:
+    bool ispossible(vector<int>&arr,int page,int stud,int n){
+        int cnt=1,sum=0;
+        for(int i=0;i<n;i++){
+            sum+=arr[i];
+            if(sum>page){
+                cnt++;
+                sum=arr[i];
+            }
+        }
+        return cnt<=stud;
+    }
+    int findPages(vector<int> &arr, int k) {
+        // code here
+        int n=arr.size();
+        if(n<k)return -1;
+        int maxel=arr[0],sum=arr[0];
+        for(int i=1;i<n;i++){
+            sum+=arr[i];
+            maxel=max(maxel,arr[i]);
+        }
+        int low=maxel,high=sum,mid;
+        while(low<=high){
+            mid=(low+high)/2;
+            if(ispossible(arr,mid,k,n)){
+                high=mid-1;
+            }
+            else{
+                low=mid+1;
+            }
+        }
+        return low;
+    }
+};
