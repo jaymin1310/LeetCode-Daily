@@ -14,7 +14,7 @@ public:
         return div<=part;
     }
     int splitArray(vector<int>& nums, int k) {
-        int n=nums.size(),ans=-1;
+        int n=nums.size();
         int low=INT_MIN,high=0,mid;
         for(int i=0;i<n;i++){
             low=max(low,nums[i]);
@@ -24,12 +24,11 @@ public:
             mid=(low+high)/2;
             if(ispossible(nums,mid,k,n)){
                 high=mid-1;
-                ans=mid;
             }
             else{
                 low=mid+1;
             }
         }
-        return ans;
+        return low;
     }
 };
