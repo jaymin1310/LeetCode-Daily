@@ -1,0 +1,32 @@
+class Solution {
+  public:
+    bool ispossible(vector<int>&arr,double mid,int n,int k){
+        int cnt=0;
+        for(int i=1;i<n;i++){
+            if((arr[i]-arr[i-1])>mid){
+                int temp=ceil((double)(arr[i]-arr[i-1])/mid)-1;
+                cnt+=temp;
+            }
+        }
+        return cnt<=k;
+    }
+    double findSmallestMaxDist(vector<int> &arr, int k) {
+        // Code here
+        int n=arr.size();
+        double low=0.0,high=-1,mid;
+        for(int i=1;i<n;i++){
+            high=max(high,(double)arr[i]-arr[i-1]);
+        }
+        double esp=1e-4;
+        while((high-low)>esp){
+            mid=(low+high)/2;
+            if(ispossible(arr,mid,n,k)){
+                high=mid;
+            }
+            else{
+                low=mid;
+            }
+        }
+        return high;
+    }
+};
