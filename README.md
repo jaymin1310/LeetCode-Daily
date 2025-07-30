@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0004-median-of-two-sorted-arrays) |
+| [0074-search-a-2d-matrix](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0074-search-a-2d-matrix) |
 | [0152-maximum-product-subarray](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0162-find-peak-element) |
@@ -21,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0004-median-of-two-sorted-arrays) |
 | [0069-sqrtx](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0069-sqrtx) |
+| [0074-search-a-2d-matrix](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0074-search-a-2d-matrix) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0162-find-peak-element) |
 | [0410-split-array-largest-sum](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0410-split-array-largest-sum) |
@@ -54,5 +56,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0074-search-a-2d-matrix](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0074-search-a-2d-matrix) |
 | [2737-row-with-maximum-ones](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2737-row-with-maximum-ones) |
 <!---LeetCode Topics End-->
