@@ -1,0 +1,35 @@
+#include<bits/stdc++.h>
+int ispossible(vector<vector<int>>&mat,int num,int row,int col){
+    int cnt=0;
+    for(int i=0;i<row;i++){
+        int low=0,high=col-1,mid,flag=0;
+        while (low <= high) {
+            mid = (low + high) / 2;
+            if (mat[i][mid] <= num)
+                low = mid + 1;
+            else
+                high = mid - 1;
+        }
+        cnt += low;
+    }
+    return cnt;
+}
+int getMedian(vector<vector<int>> &matrix)
+{
+    // Write your code here.
+    int row=matrix.size();
+    int col=matrix[0].size();
+    int req=(row*col)/2;
+    int low=1,high=pow(10,5),mid;
+    while(low<=high){
+        mid=(low+high)/2;
+        int res=ispossible(matrix,mid,row,col);
+        if(res<=req){
+            low=mid+1;
+        }
+        else{
+            high=mid-1;
+        }
+    }
+    return low;
+}
