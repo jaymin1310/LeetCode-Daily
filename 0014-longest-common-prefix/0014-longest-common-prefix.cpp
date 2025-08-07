@@ -8,15 +8,10 @@ public:
             int flag=0;
         for(int j=1;j<n;j++){
             if(i>=strs[j].size() || strs[j][i]!=cmp){
-                flag=1;
+                return strs[0].substr(0,ind);
             }
         }
-        if(flag==0){
-            ind++;
-        }
-        else{
-            break;
-        }
+       ind++;
         }
         return strs[0].substr(0,ind);
     }
