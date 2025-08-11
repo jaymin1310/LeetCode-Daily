@@ -5,11 +5,11 @@ public:
         for(int i=0;i<n;i++){
             if(s[i]=='('){
                 cnt++;
-                ans=max(cnt,ans);
             }
-            if(s[i]==')'){
+            else if(s[i]==')'){
                 cnt--;
             }
+            ans=max(cnt,ans);
         }
         return ans;
     }
