@@ -1,20 +1,28 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 class Solution {
 public:
     string frequencySort(string s) {
-        int n=s.size();
-        unordered_map<char,int>mp;
-        for(int i=0;i<n;i++){
-            mp[s[i]]++;
+        vector<int> freq(256, 0);
+        for (unsigned char c : s) {
+            freq[c]++;
         }
-       vector<pair<char,int>>temp(mp.begin(),mp.end());
-       sort(temp.begin(),temp.end(),[](auto &a,auto &b){
-        return a.second>b.second;
-       });
-       string tem;
-       for(auto it:temp){
-        tem.append(it.second,it.first);
-       }
-       return tem;
+        vector<pair<char,int>> freqPairs;
+        for (int i = 0; i < 256; i++) {
+            if (freq[i] > 0) {
+                freqPairs.push_back({(char)i, freq[i]});
+            }
+        }
+        sort(freqPairs.begin(), freqPairs.end(),
+             [](auto &a, auto &b) {
+                 return a.second > b.second;
+             });
+        string result;
+        for (auto &p : freqPairs) {
+            result.append(p.second, p.first); 
+        }
 
+        return result;
     }
 };
