@@ -7,14 +7,13 @@ public:
             while(i<n && s[i]==' '){
                 i++;
             }
-            if(s[i]=='-'){sign=-1;i++;}
-            else if(s[i]=='+')i++;
-            while(i<n && s[i]=='0'){
+            if (i < n && (s[i] == '-' || s[i] == '+')) {
+                sign = (s[i] == '-') ? -1 : 1;
                 i++;
             }
             while(i<n && isdigit(s[i])){
                 int digit=s[i]-'0';
-                if((result>INT_MAX/10) || result==INT_MAX/10 && digit>INT_MAX%10){
+                if((result>INT_MAX/10) || (result==INT_MAX/10 && digit>INT_MAX%10)){
                     return sign==1?INT_MAX:INT_MIN;
                 }
                 result=result*10+digit;
