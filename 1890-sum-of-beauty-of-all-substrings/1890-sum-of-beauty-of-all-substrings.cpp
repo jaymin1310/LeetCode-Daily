@@ -1,19 +1,22 @@
 class Solution {
 public:
     int beautySum(string s) {
-        int n = s.size(), ans = 0;
+        int n = s.size();
+        int ans = 0;
+
         for (int i = 0; i < n; i++) {
-            int arr[26]={0};
-            for (int j = i ; j < n; j++) {
-                arr[s[j] - 'a']++;
-                int mincnt = INT_MAX, maxcnt = INT_MIN;
-                for (int i = 0; i < 26; i++) {
-                    if (arr[i] != 0) {
-                        mincnt = min(arr[i], mincnt);
-                        maxcnt = max(arr[i], maxcnt);
+            int freq[26] = {0}; // frequency array
+            for (int j = i; j < n; j++) {
+                freq[s[j] - 'a']++;
+
+                int maxFreq = 0, minFreq = INT_MAX;
+                for (int k = 0; k < 26; k++) {
+                    if (freq[k] > 0) {
+                        maxFreq = max(maxFreq, freq[k]);
+                        minFreq = min(minFreq, freq[k]);
                     }
                 }
-                ans+=(maxcnt-mincnt);
+                ans += (maxFreq - minFreq);
             }
         }
         return ans;
