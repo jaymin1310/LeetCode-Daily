@@ -3,17 +3,18 @@ public:
     string reverseWords(string s) {
         int n=s.size();
         reverse(s.begin(),s.end());
-        string ans="";
+        string ans="",word="";
         for(int i=0;i<n;i++){
-            string word="";
-            while(i<n && s[i]!=' '){
+            if(s[i]==' ' || i==n-1){
+                if(s[i]!=' ')word+=s[i];
+                if(word.length()>0){
+                    reverse(word.begin(),word.end());
+                    ans+=" "+word;
+                    word="";
+                }
+            }else{
                 word+=s[i];
-                i++;
-            }
-            reverse(word.begin(),word.end());
-            if(word.length()>0){
-                ans+=" "+word;
-            }
+            }     
         }
         return ans.substr(1);
     }
