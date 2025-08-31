@@ -15,14 +15,12 @@ public:
         ListNode* prev=NULL;
         ListNode *nex=NULL;
         if(head==NULL || head->next==NULL)return head;
-        while(temp->next!=NULL){
+        while(temp!=NULL){
             nex=temp->next;
             temp->next=prev;
             prev=temp;
             temp=nex;
         }
-        head=temp;
-        temp->next=prev;
-        return head;
+        return prev;
     }
 };
