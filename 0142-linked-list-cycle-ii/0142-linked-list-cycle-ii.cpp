@@ -2,22 +2,31 @@
  * Definition for singly-linked list.
  * struct ListNode {
  *     int val;
- *     ListNod; *next;
+ *     ListNode *next;
  *     ListNode(int x) : val(x), next(NULL) {}
  * };
  */
 class Solution {
 public:
     ListNode *detectCycle(ListNode *head) {
-        ListNode* temp=head;
-        unordered_set<ListNode*>st;
-        while(temp!=NULL){
-            if(st.find(temp)!=st.end()){
-                return temp;
+        ListNode* slow=head;
+        ListNode* fast=head;
+        int stat=0;
+        while(fast!=NULL && fast->next!=NULL){
+            slow=slow->next;
+            fast=fast->next->next;
+            if(slow==fast){
+                slow=head;
+                stat=1;
+                break;
             }
-            st.insert(temp);
-            temp=temp->next;
+
         }
-        return NULL;
+        if(stat==0)return NULL;
+        while(fast!=slow){
+            fast=fast->next;
+            slow=slow->next;
+        }
+        return slow;
     }
 };
