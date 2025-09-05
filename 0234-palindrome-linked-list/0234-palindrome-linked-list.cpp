@@ -10,14 +10,16 @@
  */
 class Solution {
 public:
-    bool recursion(ListNode*& temp, ListNode* start) {
-    if (start == NULL) return true;
-    bool isPal = recursion(temp, start->next);
-    if (!isPal) return false;
-    if (start->val != temp->val) return false;
-    temp = temp->next;
-    return true;
-   }
+    ListNode* reverse(ListNode* head){
+        if(head==NULL || head->next==NULL){
+            return head;
+        }
+        ListNode* newnode=reverse(head->next);
+        ListNode* front=head->next;
+        front->next=head;
+        head->next=NULL;
+        return newnode;
+    }
     bool isPalindrome(ListNode* head) {
         if(head->next==NULL)return head;
         ListNode* fast=head;
@@ -27,6 +29,17 @@ public:
             fast=fast->next->next;
         }
         if(fast!=NULL)slow=slow->next;
-        return recursion(head,slow);
+        ListNode* newn=reverse(slow);
+        fast=head;
+        while(newn!=NULL){
+            if(fast->val!=newn->val){
+                reverse(slow);
+                return false;
+            }
+            newn=newn->next;
+            fast=fast->next;
+        }
+        reverse(slow);
+        return true;
     }
 };
