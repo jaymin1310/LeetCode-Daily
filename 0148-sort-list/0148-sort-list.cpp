@@ -11,26 +11,16 @@
 class Solution {
 public:
     ListNode* merge(ListNode* left,ListNode* right){
-        ListNode* head=NULL;
+        ListNode* head=new ListNode(-1);
         ListNode* temp=head;
         while(left!=NULL && right!=NULL){
             if(right->val>left->val){
-                if(head==NULL){
-                    head=left;temp=head;
-                }
-                else{
-                    temp->next=left;
-                    temp=temp->next;
-                }
+                temp->next=left;
+                temp=temp->next;
                 left=left->next;
             }else{
-                if(head==NULL){
-                    head=right;temp=right;
-                }
-                else{
-                    temp->next=right;
-                    temp=temp->next;
-                }
+                temp->next=right;
+                temp=temp->next;
                 right=right->next;
             }
         }
@@ -44,7 +34,7 @@ public:
                 temp=temp->next;
                 right=right->next;
             }
-        return head;
+        return head->next;
     }
     ListNode* middleNode(ListNode* head){
         ListNode* slow=head;
