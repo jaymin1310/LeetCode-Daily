@@ -24,15 +24,11 @@ public:
                 right=right->next;
             }
         }
-            while(left!=NULL){
+            if(left!=NULL){
                 temp->next=left;
-                temp=temp->next;
-                left=left->next;
             }
-            while(right!=NULL){
+            if(right!=NULL){
                 temp->next=right;
-                temp=temp->next;
-                right=right->next;
             }
         return head->next;
     }
