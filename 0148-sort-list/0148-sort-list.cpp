@@ -11,7 +11,7 @@
 class Solution {
 public:
     ListNode* merge(ListNode* left,ListNode* right){
-        ListNode* head=new ListNode(-1);
+        ListNode* head=new ListNode(0);
         ListNode* temp=head;
         while(left!=NULL && right!=NULL){
             if(right->val>left->val){
