@@ -27,7 +27,7 @@ public:
             if(left!=NULL){
                 temp->next=left;
             }
-            if(right!=NULL){
+           else{
                 temp->next=right;
             }
         return head->next;
