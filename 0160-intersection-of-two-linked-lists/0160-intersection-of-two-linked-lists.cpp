@@ -26,30 +26,17 @@ public:
             cnt2++;
             temp2=temp2->next;
         }
-        temp1=headA;
-        temp2=headB;
-        if(cnt1-cnt2!=0){
-            if(cnt1>cnt2){
-                cnt1=cnt1-cnt2;
-                while(cnt1){
-                    temp1=temp1->next;
-                    cnt1--;
-                }
-            }else{
-                cnt2=cnt2-cnt1;
-                while(cnt2){
-                    temp2=temp2->next;
-                    cnt2--;
-                }
-            }
+        int diff=cnt1-cnt2;
+        if(diff<0){
+            while(diff++ != 0) headB = headB->next; 
         }
-        while(temp1 && temp2){
-                if(temp1==temp2){
-                    return temp1;
-                }
-                temp1=temp1->next;
-                temp2=temp2->next;
+        else while(diff-- != 0) headA = headA->next;
+        while(headA != NULL) {
+            if(headA == headB) return headA;
+            headB = headB->next;
+            headA = headA->next;
         }
         return NULL;
+
     }
 };
