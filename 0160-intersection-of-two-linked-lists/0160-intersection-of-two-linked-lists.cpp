@@ -11,16 +11,44 @@ public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
         ListNode* temp1=headA;
         ListNode* temp2=headB;
-        unordered_set<ListNode*>st;
+        int cnt1=0,cnt2=0;
+        while(temp1 && temp2){
+            cnt1++;
+            cnt2++;
+            temp1=temp1->next;
+            temp2=temp2->next;
+        }
         while(temp1){
-            st.insert(temp1);
+            cnt1++;
             temp1=temp1->next;
         }
         while(temp2){
-            if(st.find(temp2)!=st.end()){
-                return temp2;
-            }
+            cnt2++;
             temp2=temp2->next;
+        }
+        temp1=headA;
+        temp2=headB;
+        if(cnt1-cnt2!=0){
+            if(cnt1>cnt2){
+                cnt1=cnt1-cnt2;
+                while(cnt1){
+                    temp1=temp1->next;
+                    cnt1--;
+                }
+            }else{
+                cnt2=cnt2-cnt1;
+                while(cnt2){
+                    temp2=temp2->next;
+                    cnt2--;
+                }
+            }
+        }
+        while(temp1 && temp2){
+                if(temp1==temp2){
+                    return temp1;
+                }
+                temp1=temp1->next;
+                temp2=temp2->next;
         }
         return NULL;
     }
