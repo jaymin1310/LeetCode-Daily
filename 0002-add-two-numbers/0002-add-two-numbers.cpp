@@ -14,22 +14,22 @@ public:
         ListNode* tempHead=new ListNode(-1);
         ListNode* temp=tempHead;
         int carry=0;
-        while(l1 || l2){
-            int sum=carry+((l1)?l1->val:0)+((l2)?l2->val:0);
-            ListNode* temperNode=new ListNode(sum);
-            temp->next=temperNode;
-            temp=temp->next;
-            if(temp->val>=10){
-                carry=1;
-                temp->val=temp->val%10;
-            }else{
-                carry=0;
+        while(l1 || l2 || carry){
+            int sum = 0; 
+            if(l1 != NULL) {
+                sum += l1->val; 
+                l1 = l1 -> next; 
             }
-            if(l1)l1=l1->next;
-            if(l2)l2=l2->next;
+            if(l2 != NULL) {
+                sum += l2 -> val; 
+                l2 = l2 -> next; 
+            }
+            sum += carry; 
+            carry = sum / 10; 
+            ListNode *node = new ListNode(sum % 10); 
+            temp -> next = node; 
+            temp = temp -> next; 
         }
-        if(carry==1){ListNode* newN=new ListNode(1);
-        temp->next=newN;}
         return tempHead->next;
     }
 };
