@@ -1,0 +1,36 @@
+// User function Template for C++
+
+/* a Node of the doubly linked list
+struct Node
+{
+  int data;
+  struct Node *next;
+  struct Node *prev;
+  Node(int x) { data = x; next = prev = NULL; }
+}; */
+
+class Solution {
+  public:
+    void deleteAllOccurOfX(struct Node** head_ref, int x) {
+        // Write your code here
+        struct Node* temp=*head_ref;
+        while(temp && temp->data==x){
+            struct Node* del=temp;
+            temp=temp->next;
+            delete del;
+        }
+        *head_ref=temp;
+        if(!temp)return;
+        while(temp){
+            if(temp->data==x){
+                struct Node* del=temp;
+                temp->prev->next=temp->next;
+               if(temp->next!=NULL) temp->next->prev=temp->prev;
+               temp=temp->next;
+               delete del;
+            }else
+            temp=temp->next;
+        }
+        return;
+    }
+};
