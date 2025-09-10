@@ -1,0 +1,39 @@
+// User function Template for C++
+
+/* Doubly linked list node class
+class Node
+{
+public:
+    int data;
+    Node *next, *prev;
+    Node(int val) : data(val), next(NULL), prev(NULL)
+    {
+    }
+};
+*/
+
+class Solution {
+  public:
+    vector<pair<int, int>> findPairsWithGivenSum(Node *head, int target) {
+        // code here
+        vector<pair<int,int>>pr;
+        Node* tail=head;
+        while(tail->next){
+            tail=tail->next;
+        }
+        Node* front=head;
+        while(front!=tail){
+            int sum=front->data+tail->data;
+            if(sum>target){
+                tail=tail->prev;
+            }else if(sum<target){
+                front=front->next; 
+            }else{
+                pr.push_back({front->data,tail->data});
+                front=front->next;
+            }
+        }
+        return pr;
+        
+    }
+};
