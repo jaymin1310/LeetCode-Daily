@@ -39,6 +39,7 @@ public:
             pHead=nTail;
             }else{
                 pHead->next=start;
+                break;
             }
         }
         return nHead->next;
