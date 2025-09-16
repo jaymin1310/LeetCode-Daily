@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0069-sqrtx](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0069-sqrtx) |
 | [0258-add-digits](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0258-add-digits) |
 | [2032-largest-odd-number-in-string](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2032-largest-odd-number-in-string) |
+| [2050-count-good-numbers](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2050-count-good-numbers) |
 ## Greedy
 |  |
 | ------- |
@@ -177,6 +178,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0050-powx-n](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0050-powx-n) |
 | [0206-reverse-linked-list](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0234-palindrome-linked-list) |
+| [2050-count-good-numbers](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2050-count-good-numbers) |
 ## Merge Sort
 |  |
 | ------- |
