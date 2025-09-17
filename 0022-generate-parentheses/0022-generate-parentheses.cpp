@@ -1,16 +1,18 @@
 class Solution {
 public:
-    void recursion(vector<string>&ans,int n,string curr,int cnt1,int cnt2){
-        if(cnt1==n && cnt1-cnt2==0){
+    void recursion(vector<string>& ans, int n, string curr, int open, int close) {
+        if(curr.size() == 2*n) {
             ans.push_back(curr);
             return;
         }
-        if(cnt1!=n)recursion(ans,n,curr+'(',cnt1+1,cnt2);
-        if(cnt1-cnt2!=0)recursion(ans,n,curr+')',cnt1,cnt2+1);
+
+        if(open < n) recursion(ans, n, curr + '(', open + 1, close);
+        if(close < open) recursion(ans, n, curr + ')', open, close + 1);
     }
+
     vector<string> generateParenthesis(int n) {
-        vector<string>ans;
-        recursion(ans,n,"(",1,0);
+        vector<string> ans;
+        recursion(ans, n, "", 0, 0);
         return ans;
     }
 };
