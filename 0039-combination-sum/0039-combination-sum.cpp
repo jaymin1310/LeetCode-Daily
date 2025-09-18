@@ -1,7 +1,7 @@
 class Solution {
 public:
     void recursion(vector<int>&nums,int k,vector<int>temp,vector<vector<int>>&ans,int i){
-        if(i>=nums.size() || k<=0){
+        if(k<=0||i>=nums.size()){
             if(k==0){
                 ans.push_back(temp);
             }
