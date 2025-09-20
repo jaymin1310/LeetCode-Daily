@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0004-median-of-two-sorted-arrays](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0004-median-of-two-sorted-arrays) |
 | [0014-longest-common-prefix](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0014-longest-common-prefix) |
 | [0039-combination-sum](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0039-combination-sum) |
+| [0040-combination-sum-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0040-combination-sum-ii) |
 | [0074-search-a-2d-matrix](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0078-subsets) |
 | [0152-maximum-product-subarray](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0152-maximum-product-subarray) |
@@ -200,6 +201,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0022-generate-parentheses](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0022-generate-parentheses) |
 | [0039-combination-sum](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0039-combination-sum) |
+| [0040-combination-sum-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0040-combination-sum-ii) |
 | [0078-subsets](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0078-subsets) |
 ## Bit Manipulation
 |  |
