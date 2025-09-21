@@ -8,6 +8,8 @@ public:
         }
         if(n<0)return;
         for(int i=ind;i<=9;i++){
+            int minSum = (i + i + k - 1) * k / 2;
+            if(minSum > n) break;
             temp.push_back(i);
             recursion(temp,i+1,k-1,n-i);
             temp.pop_back();
