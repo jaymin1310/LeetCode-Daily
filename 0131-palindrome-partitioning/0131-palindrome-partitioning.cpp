@@ -1,33 +1,35 @@
 class Solution {
 public:
-    vector<vector<string>>ans;
-    bool helper(string temp){
-        int start=0;
-        int end=temp.size()-1;
-        while(start<=end){
-            if(temp[start]!=temp[end])return false;
-            start++;
-            end--;
+    vector<vector<string>> ans;
+
+    // check if substring s[l..r] is palindrome
+    bool isPalindrome(const string& s, int l, int r) {
+        while (l < r) {
+            if (s[l] != s[r]) return false;
+            l++;
+            r--;
         }
         return true;
     }
-    void recursion(string& s,vector<string>&array,int i,string result){
-        if(i>=s.size()){
-            ans.push_back(array);
+
+    void backtrack(string& s, int start, vector<string>& path) {
+        if (start == s.size()) {
+            ans.push_back(path);
+            return;
         }
-        string temp;
-        for(int j=i;j<s.size();j++){
-            temp+=s[j];
-            if(helper(temp)){
-                array.push_back(temp);
-                recursion(s,array,j+1,temp);
-                array.pop_back();
+
+        for (int end = start; end < s.size(); end++) {
+            if (isPalindrome(s, start, end)) {
+                path.push_back(s.substr(start, end - start + 1)); // take substring
+                backtrack(s, end + 1, path);
+                path.pop_back(); // undo choice
             }
         }
     }
+
     vector<vector<string>> partition(string s) {
-        vector<string>temp;
-        recursion(s,temp,0,"");
+        vector<string> path;
+        backtrack(s, 0, path);
         return ans;
     }
 };
