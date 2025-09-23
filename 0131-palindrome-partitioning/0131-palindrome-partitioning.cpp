@@ -1,8 +1,6 @@
 class Solution {
 public:
     vector<vector<string>> ans;
-
-    // check if substring s[l..r] is palindrome
     bool isPalindrome(const string& s, int l, int r) {
         while (l < r) {
             if (s[l] != s[r]) return false;
@@ -20,9 +18,9 @@ public:
 
         for (int end = start; end < s.size(); end++) {
             if (isPalindrome(s, start, end)) {
-                path.push_back(s.substr(start, end - start + 1)); // take substring
+                path.push_back(s.substr(start, end - start + 1));
                 backtrack(s, end + 1, path);
-                path.pop_back(); // undo choice
+                path.pop_back(); 
             }
         }
     }
