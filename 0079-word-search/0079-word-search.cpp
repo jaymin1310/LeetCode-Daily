@@ -1,40 +1,36 @@
 class Solution {
 public:
-    int row;
-    int col;
-    bool recursion(vector<vector<char>>& board, string& word, int i, int j,
-                   int ind) {
-        if (ind == word.size())
+    bool searchNext(vector<vector<char>> &board, string word, int row, int col, 
+                    int index, int m, int n) {
+        if (index == word.length())
             return true;
-        char original = board[i][j];
-        board[i][j] = '#';
-        char temp = word[ind];
 
-        bool found =
-            (i < row && col > j + 1 && board[i][j + 1] == temp &&
-             recursion(board, word, i, j + 1, ind + 1)) || // right
-            (j > 0 && i < row && col > j - 1 && board[i][j - 1] == temp &&
-             recursion(board, word, i, j - 1, ind + 1)) || // left
-            (i > 0 && i - 1 < row && col > j && board[i - 1][j] == temp &&
-             recursion(board, word, i - 1, j, ind + 1)) || // up
-            (i + 1 < row && col > j && board[i + 1][j] == temp &&
-             recursion(board, word, i + 1, j, ind + 1)); // down
-        board[i][j] = original;
-        if (found)
-            return true;
-        return false;
+        if (row < 0 || col < 0 || row == m || col == n || board[row][col] != word[index] || board[row][col] == '!')
+            return false;
+
+        char c = board[row][col];
+        board[row][col] = '!';
+
+        bool top = searchNext(board, word, row - 1, col, index + 1, m, n);
+        bool right = searchNext(board, word, row, col + 1, index + 1, m, n);
+        bool bottom = searchNext(board, word, row + 1, col, index + 1, m, n);
+        bool left = searchNext(board, word, row, col - 1, index + 1, m, n);
+
+        board[row][col] = c;
+
+        return top || right || bottom || left;
     }
-    bool exist(vector<vector<char>>& board, string word) {
-        int r = board.size();
-        int c = board[0].size();
-        row = r;
-        col = c;
-        for (int i = 0; i < row; i++) {
-            for (int j = 0; j < col; j++) {
-                if (board[i][j] == word[0]) {
-                    if (recursion(board, word, i, j, 1)) {
+
+    bool exist(vector<vector<char>> board, string word) {
+        int m = board.size();
+        int n = board[0].size();
+        int index = 0;
+
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                if (board[i][j] == word[index]) {
+                    if (searchNext(board, word, i, j, index, m, n))
                         return true;
-                    }
                 }
             }
         }
