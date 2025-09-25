@@ -1,47 +1,36 @@
 class Solution {
 public:
     vector<vector<string>> ans;
-    bool isSafe(vector<vector<char>>& board, int row, int col, int n) {
-        //top
-        for (int i = row-1; i >= 0; i--) {
-            if (board[i][col] == 'Q'){
-                return false;
-            }
-        }
-        for (int i = row, j = col; i >= 0 && j < n; i--, j++) {
-            if (board[i][j] == 'Q') {
-                return false;
-            }
-        }
-        for (int i = row, j = col; i >= 0 && j >= 0; i--, j--) {
-            if (board[i][j] == 'Q') {
-                return false;
-            }
-        }
-        return true;
-    }
-    void recursion(int n, vector<vector<char>>& temp, int row) {
+    void recursion(int n, vector<string>& board, int row,vector<int>&colC,vector<int>&ulC,vector<int>&urC) {
         if (row == n) {
-            vector<string> vec;
-            for (auto& r : temp) {
-                string s(r.begin(), r.end());
-                vec.push_back(s);
-            }
-            ans.push_back(vec);
+            ans.push_back(board);
             return;
         }
         for (int i = 0; i < n; i++) {
-            if (isSafe(temp, row, i, n)) {
-                temp[row][i] = 'Q';
-                recursion(n, temp, row + 1);
-                temp[row][i] = '.';
+            if (colC[i]==0 && ulC[row-i+(n-1)]==0 &&urC[row+i]==0){
+                board[row][i]='Q';
+                colC[i]=1;
+                ulC[row-i+(n-1)]=1;
+                urC[row+i]=1;
+                recursion(n,board,row+1,colC,ulC,urC);
+                board[row][i]='.';
+                colC[i]=0;
+                ulC[row-i+(n-1)]=0;
+                urC[row+i]=0;
             }
         }
         return;
     }
     vector<vector<string>> solveNQueens(int n) {
-        vector<vector<char>> temp(n, vector<char>(n, '.'));
-        recursion(n, temp, 0);
+        vector<string> temp(n);
+        string s(n,'.');
+        for(int i=0;i<n;i++){
+            temp[i]=s;
+        }
+        vector<int>colC(n,0);
+        vector<int>ulC(2*n-1,0);
+        vector<int>urC(2*n-1,0);
+        recursion(n, temp, 0,colC,ulC,urC);
         return ans;
     }
 };
