@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0004-median-of-two-sorted-arrays) |
 | [0014-longest-common-prefix](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0014-longest-common-prefix) |
+| [0037-sudoku-solver](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0040-combination-sum-ii) |
 | [0051-n-queens](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0051-n-queens) |
@@ -81,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0037-sudoku-solver) |
 | [0074-search-a-2d-matrix](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0079-word-search) |
 | [0240-search-a-2d-matrix-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0240-search-a-2d-matrix-ii) |
@@ -136,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0013-roman-to-integer](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0013-roman-to-integer) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0037-sudoku-solver](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0037-sudoku-solver) |
 | [0138-copy-list-with-random-pointer](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0142-linked-list-cycle-ii) |
@@ -214,6 +217,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0022-generate-parentheses) |
+| [0037-sudoku-solver](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0040-combination-sum-ii) |
 | [0051-n-queens](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0051-n-queens) |
