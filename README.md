@@ -61,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0013-roman-to-integer) |
 | [0050-powx-n](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0050-powx-n) |
 | [0069-sqrtx](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0069-sqrtx) |
+| [0231-power-of-two](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0231-power-of-two) |
 | [0258-add-digits](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0258-add-digits) |
 | [0282-expression-add-operators](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0282-expression-add-operators) |
 | [2032-largest-odd-number-in-string](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2032-largest-odd-number-in-string) |
@@ -200,6 +201,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0025-reverse-nodes-in-k-group](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0025-reverse-nodes-in-k-group) |
 | [0050-powx-n](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0050-powx-n) |
 | [0206-reverse-linked-list](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0206-reverse-linked-list) |
+| [0231-power-of-two](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0231-power-of-two) |
 | [0234-palindrome-linked-list](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0234-palindrome-linked-list) |
 | [2050-count-good-numbers](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2050-count-good-numbers) |
 ## Merge Sort
@@ -234,6 +236,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0078-subsets](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0090-subsets-ii) |
+| [0231-power-of-two](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0231-power-of-two) |
 ## Depth-First Search
 |  |
 | ------- |
