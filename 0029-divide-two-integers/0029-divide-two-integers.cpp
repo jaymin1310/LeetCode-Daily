@@ -17,7 +17,7 @@ public:
             ans+=1<<cnt;
             n-=(tempDown<<cnt);
         }
-        return (sign)?-ans:ans;
+        return (sign)?-1*ans:ans;
 
     }
 };
