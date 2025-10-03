@@ -241,6 +241,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0090-subsets-ii) |
 | [0231-power-of-two](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0231-power-of-two) |
+| [2323-minimum-bit-flips-to-convert-number](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2323-minimum-bit-flips-to-convert-number) |
 ## Depth-First Search
 |  |
 | ------- |
