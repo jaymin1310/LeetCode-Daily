@@ -1,19 +1,24 @@
 class Solution {
 public:
-    void recursion(vector<vector<int>>&ans,vector<int>&nums,vector<int>temp,int i){
-        if(i>=nums.size()){
+    vector<vector<int>>ans;
+     void recursionString(string current,int n,vector<int>&nums){
+        if(n<=1){
+            vector<int>temp;
+            for(int i=0;i<nums.size();i++){
+                if(current[i]=='1'){
+                    temp.push_back(nums[i]);
+                }
+            }
             ans.push_back(temp);
             return;
         }
-        temp.push_back(nums[i]);
-        recursion(ans,nums,temp,i+1);
-        temp.pop_back();
-        recursion(ans,nums,temp,i+1);
+        recursionString(current+'0',n-1,nums);
+        recursionString(current+'1',n-1,nums);
     }
     vector<vector<int>> subsets(vector<int>& nums) {
-        vector<vector<int>>ans;
-        vector<int>temp;
-        recursion(ans,nums,temp,0);
+        int n=nums.size();
+        recursionString("0",n,nums);
+        recursionString("1",n,nums);
         return ans;
     }
 };
