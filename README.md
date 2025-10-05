@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0152-maximum-product-subarray](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0162-find-peak-element) |
+| [0204-count-primes](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0204-count-primes) |
 | [0216-combination-sum-iii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0216-combination-sum-iii) |
 | [0240-search-a-2d-matrix-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0240-search-a-2d-matrix-ii) |
 | [0410-split-array-largest-sum](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0410-split-array-largest-sum) |
@@ -64,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0029-divide-two-integers](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0029-divide-two-integers) |
 | [0050-powx-n](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0050-powx-n) |
 | [0069-sqrtx](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0069-sqrtx) |
+| [0204-count-primes](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0204-count-primes) |
 | [0231-power-of-two](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0231-power-of-two) |
 | [0258-add-digits](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0258-add-digits) |
 | [0282-expression-add-operators](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0282-expression-add-operators) |
@@ -219,6 +221,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Number Theory
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0204-count-primes) |
 | [0258-add-digits](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0258-add-digits) |
 ## Backtracking
 |  |
@@ -252,4 +255,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0387-first-unique-character-in-a-string](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0387-first-unique-character-in-a-string) |
+## Enumeration
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0204-count-primes) |
 <!---LeetCode Topics End-->
