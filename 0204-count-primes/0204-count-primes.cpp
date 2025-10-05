@@ -3,12 +3,11 @@ public:
     int countPrimes(int n) {
         if(n<2)return 0;
         vector<bool>mark(n,true);
-        mark[0]=false;
-        mark[1]=false;
+        mark[0]=mark[1]=false;
         for(int i=2;i*i<=n;i++){
             if(mark[i]==true){
-                for(int j=2;j*i<n;j++){
-                    mark[i*j]=false;
+                for(int j=i*i;j<n;j+=i){
+                    mark[j]=false;
                 }
             }
         }
