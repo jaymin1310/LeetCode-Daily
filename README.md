@@ -112,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0282-expression-add-operators](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0282-expression-add-operators) |
 | [0387-first-unique-character-in-a-string](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0387-first-unique-character-in-a-string) |
 | [0451-sort-characters-by-frequency](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0451-sort-characters-by-frequency) |
+| [0742-to-lower-case](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0742-to-lower-case) |
 | [0812-rotate-string](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0812-rotate-string) |
 | [1078-remove-outermost-parentheses](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1078-remove-outermost-parentheses) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
