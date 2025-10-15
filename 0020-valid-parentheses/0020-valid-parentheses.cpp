@@ -8,14 +8,13 @@ public:
             }else{
                 if(st.empty())return false;
                 char top=st.top();
-                if(top=='('&& it==')' ||top=='{'&& it=='}' || top=='['&& it==']'){
+                if(top=='('&& it==')' || top=='{'&& it=='}' || top=='['&& it==']'){
                     st.pop();
-                    continue;
+                }else{
+                    return false;
                 }
-                return false;
             }
         }
-        if(st.empty())return true;
-        return false;
+        return st.empty();
     }
 };
