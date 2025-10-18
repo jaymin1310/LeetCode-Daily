@@ -6,7 +6,7 @@ public:
             long long  mid=(low+high)/2;
             long long  tt=0;
             for(int i=0;i<piles.size();i++){
-                tt+=(piles[i]+mid-1)/mid; //where mid is the bana per hour
+                tt+=(piles[i]+mid-1)/mid;
             }
             if(tt<=h){
                 ans=mid;
