@@ -8,14 +8,14 @@ public:
                 if(left>height[low]){
                     total+=left-height[low];
                 }else{
-                    left=max(left,height[low]);
+                    left=height[low];
                 }
                 low++;
             }else{
                 if(right>height[high]){
                     total+=right-height[high];
                 }else{
-                    right=max(right,height[high]);
+                    right=height[high];
                 }
                 high--;
             }
