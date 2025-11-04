@@ -1,40 +1,26 @@
 class Solution {
 public:
-    vector<int> NSE(vector<int>&arr){
+    int largestRectangleArea(vector<int>& arr) {
         int n=arr.size();
-        stack<int>st;
-        vector<int>ans(n,n);
-        for(int i=n-1;i>=0;i--){
-            while(!st.empty() && arr[st.top()]>=arr[i]){
-                st.pop();
-            }
-            if(!st.empty())ans[i]=st.top();
-            st.push(i);
-        }
-        return ans;
-    }
-    vector<int> PSE(vector<int>&arr){
-        int n=arr.size();
-        stack<int>st;
-        vector<int>ans(n,-1);
+        int res=0;
+        vector<int>st;
         for(int i=0;i<n;i++){
-            while(!st.empty() && arr[st.top()]>=arr[i]){
-                st.pop();
+            while(!st.empty() && arr[st.back()]>arr[i]){
+                int pInd=st.size()-2;
+                int freq=(i-1)-((pInd)>=0?st[pInd]:-1);
+                int value=freq*arr[st.back()];
+                res=max(res,value);
+                st.pop_back();
             }
-            if(!st.empty())ans[i]=st.top();
-            st.push(i);
+            st.push_back(i);
         }
-        return ans;
-    }
-    int largestRectangleArea(vector<int>& heights) {
-        vector<int>nse=NSE(heights);
-        vector<int>pse=PSE(heights);
-        int n=heights.size();
-        int ans=0;
-        for(int i=0;i<n;i++){
-            int freq=nse[i]-pse[i]-1;
-            ans=max(ans,heights[i]*freq);
+        while(!st.empty()){
+            int pInd=st.size()-2;
+            int freq=(n-1)-((pInd)>=0?st[pInd]:-1);
+            int value=freq*arr[st.back()];
+            res=max(res,value);
+            st.pop_back();
         }
-        return ans;
+        return res;
     }
 };
