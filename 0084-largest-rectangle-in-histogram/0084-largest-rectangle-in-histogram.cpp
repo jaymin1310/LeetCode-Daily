@@ -1,26 +1,22 @@
 class Solution {
 public:
-    int largestRectangleArea(vector<int>& arr) {
-        int n=arr.size();
-        int res=0;
-        vector<int>st;
-        for(int i=0;i<n;i++){
-            while(!st.empty() && arr[st.back()]>arr[i]){
-                int pInd=st.size()-2;
-                int freq=(i-1)-((pInd)>=0?st[pInd]:-1);
-                int value=freq*arr[st.back()];
-                res=max(res,value);
-                st.pop_back();
+    int largestRectangleArea(vector<int>& heights) {
+        int n = heights.size();
+        stack<int> st;
+        int maxArea = 0;
+
+        for (int i = 0; i <= n; i++) {
+            int curr = (i == n) ? 0 : heights[i];  // sentinel value
+            while (!st.empty() && heights[st.top()] > curr) {
+                int h = heights[st.top()];
+                st.pop();
+                int right = i;
+                int left = st.empty() ? -1 : st.top();
+                int width = right - left - 1;
+                maxArea = max(maxArea, h * width);
             }
-            st.push_back(i);
+            st.push(i);
         }
-        while(!st.empty()){
-            int pInd=st.size()-2;
-            int freq=(n-1)-((pInd)>=0?st[pInd]:-1);
-            int value=freq*arr[st.back()];
-            res=max(res,value);
-            st.pop_back();
-        }
-        return res;
+        return maxArea;
     }
 };
