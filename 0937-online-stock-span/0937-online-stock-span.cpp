@@ -12,10 +12,8 @@ public:
             st.pop();
         }
         int pg=(st.empty())?-1:st.top();
-        int ans=ind-pg;
-        st.push(ind);
-        ind++;
-        return ans;
+        st.push(arr.size()-1);
+        return (arr.size()-1)-pg;
     }
 };
 
