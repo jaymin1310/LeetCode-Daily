@@ -2,9 +2,7 @@ class StockSpanner {
 public:
     stack<int>st;
     vector<int>arr;
-    int ind;
     StockSpanner() {
-        ind=0;
     }
     int next(int price) {
         arr.push_back(price);
