@@ -1,66 +1,72 @@
 class LFUCache {
-    unordered_map<int, pair<int,int>> kvf;              // key -> {value, freq}
-    unordered_map<int, list<int>::iterator> mp;         // key -> iterator
-    unordered_map<int, list<int>> freq;                 // freq -> list of keys
-    int minF = 0;
-    int cap = 0;
+    unordered_map<int, pair<int,int>> kvf;
+    unordered_map<int, list<int>::iterator> mp;
+    unordered_map<int, list<int>> freq;
+    int minF = 0, cap = 0;
+
+    void increaseFreq(int key) {
+        int oldF = kvf[key].second;
+        auto it = mp[key];
+
+        // remove from old frequency bucket
+        auto &lst = freq[oldF];
+        lst.erase(it);
+
+        // check if bucket empty
+        if (lst.empty()) {
+            freq.erase(oldF);
+            if (minF == oldF)
+                minF = oldF + 1;
+        }
+
+        // add to new bucket
+        int newF = oldF + 1;
+        kvf[key].second = newF;
+        freq[newF].push_front(key);
+        mp[key] = freq[newF].begin();
+    }
 
 public:
     LFUCache(int capacity) {
         cap = capacity;
+        kvf.reserve(cap);
+        mp.reserve(cap);
+        freq.reserve(cap);
     }
     
     int get(int key) {
-        if (cap == 0) return -1;
+        if (cap == 0 || mp.find(key) == mp.end()) 
+            return -1;
 
-        if (mp.find(key) != mp.end()) {
-            int oldF = kvf[key].second;
-            freq[oldF].erase(mp[key]);
-            if (freq[oldF].empty()) {
-                freq.erase(oldF);
-                if (minF == oldF)
-                    minF = oldF + 1;
-            }
-            int newF = oldF + 1;
-            kvf[key].second = newF;
-            freq[newF].push_front(key);
-            mp[key] = freq[newF].begin();
-            return kvf[key].first;
-        }
-        return -1;
+        increaseFreq(key);
+        return kvf[key].first;
     }
     
     void put(int key, int value) {
         if (cap == 0) return;
 
-        // Key already exists -> update value + bump freq
         if (mp.find(key) != mp.end()) {
-            int oldF = kvf[key].second;
-            freq[oldF].erase(mp[key]);
-            if (freq[oldF].empty()) {
-                freq.erase(oldF);
-                if (minF == oldF)
-                    minF = oldF + 1;
-            }
             kvf[key].first = value;
-            kvf[key].second = oldF + 1;
-            freq[oldF + 1].push_front(key);
-            mp[key] = freq[oldF + 1].begin();
+            increaseFreq(key);
             return;
         }
-        if (mp.size() == cap) {
-            int k = freq[minF].back();
-            freq[minF].pop_back();
 
-            if (freq[minF].empty())
+        // eviction
+        if ((int)mp.size() == cap) {
+            auto &lst = freq[minF];
+            int k = lst.back();
+            lst.pop_back();
+            
+            if (lst.empty())
                 freq.erase(minF);
 
             mp.erase(k);
             kvf.erase(k);
         }
+
         minF = 1;
         freq[1].push_front(key);
         mp[key] = freq[1].begin();
-        kvf[key] = { value, 1 };
+        kvf[key] = {value, 1};
     }
 };
