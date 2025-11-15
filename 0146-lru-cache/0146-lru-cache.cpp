@@ -1,34 +1,70 @@
 class LRUCache {
-    list<pair<int,int>>li;
-    unordered_map<int,list<pair<int,int>>::iterator>mp;
-    int cap;
-public:
-    
-    LRUCache(int capacity) {
-        cap=capacity;
+  public:
+    class node {
+      public:
+        int key;
+      int val;
+      node * next;
+      node * prev;
+      node(int _key, int _val) {
+        key = _key;
+        val = _val;
+      }
+    };
+
+  node * head = new node(-1, -1);
+  node * tail = new node(-1, -1);
+
+  int cap;
+  unordered_map < int, node * > m;
+
+  LRUCache(int capacity) {
+    cap = capacity;
+    head -> next = tail;
+    tail -> prev = head;
+  }
+
+  void addnode(node * newnode) {
+    node * temp = head -> next;
+    newnode -> next = temp;
+    newnode -> prev = head;
+    head -> next = newnode;
+    temp -> prev = newnode;
+  }
+
+  void deletenode(node * delnode) {
+    node * delprev = delnode -> prev;
+    node * delnext = delnode -> next;
+    delprev -> next = delnext;
+    delnext -> prev = delprev;
+  }
+
+  int get(int key_) {
+    if (m.find(key_) != m.end()) {
+      node * resnode = m[key_];
+      int res = resnode -> val;
+      m.erase(key_);
+      deletenode(resnode);
+      addnode(resnode);
+      m[key_] = head -> next;
+      return res;
     }
-    
-    int get(int key) {
-        auto it=mp.find(key);
-        if(it!=mp.end()){
-            li.splice(li.begin(), li, it->second);
-            return it->second->second;
-        }
-        return -1;
+
+    return -1;
+  }
+
+  void put(int key_, int value) {
+    if (m.find(key_) != m.end()) {
+      node * existingnode = m[key_];
+      m.erase(key_);
+      deletenode(existingnode);
     }
-    
-    void put(int key, int value) {
-        auto it=mp.find(key);
-        if(it!=mp.end()){
-            li.splice(li.begin(), li, it->second);
-            it->second->second=value;
-        }else{
-            if(mp.size()==cap){
-                mp.erase(li.back().first);
-                li.pop_back();
-            }
-            li.push_front({key,value});
-            mp[key]=li.begin();
-        }
+    if (m.size() == cap) {
+      m.erase(tail -> prev -> key);
+      deletenode(tail -> prev);
     }
+
+    addnode(new node(key_, value));
+    m[key_] = head -> next;
+  }
 };
