@@ -9,6 +9,7 @@ public:
             sum+=card[l];
         }
         maxS=sum;
+        if(l==r)return maxS;
         while(l>0){
             l--;
             r--;
