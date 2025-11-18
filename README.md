@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2047-find-a-peak-element-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2047-find-a-peak-element-ii) |
 | [2219-maximum-number-of-words-found-in-sentences](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2219-maximum-number-of-words-found-in-sentences) |
 | [2227-sum-of-subarray-ranges](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2227-sum-of-subarray-ranges) |
+| [2231-find-first-palindromic-string-in-the-array](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2231-find-first-palindromic-string-in-the-array) |
 | [2609-distinct-prime-factors-of-product-of-array](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2609-distinct-prime-factors-of-product-of-array) |
 | [2737-row-with-maximum-ones](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2737-row-with-maximum-ones) |
 | [2876-number-of-employees-who-met-the-target](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2876-number-of-employees-who-met-the-target) |
@@ -151,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [2032-largest-odd-number-in-string](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2032-largest-odd-number-in-string) |
 | [2219-maximum-number-of-words-found-in-sentences](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2219-maximum-number-of-words-found-in-sentences) |
+| [2231-find-first-palindromic-string-in-the-array](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2231-find-first-palindromic-string-in-the-array) |
 ## Stack
 |  |
 | ------- |
@@ -187,6 +189,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0234-palindrome-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0908-middle-of-the-linked-list) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
+| [2231-find-first-palindromic-string-in-the-array](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2231-find-first-palindromic-string-in-the-array) |
 ## Trie
 |  |
 | ------- |
