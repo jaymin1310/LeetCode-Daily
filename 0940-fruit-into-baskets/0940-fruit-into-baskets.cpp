@@ -1,27 +1,21 @@
 class Solution {
 public:
     int totalFruit(vector<int>& fruits) {
-        int n=fruits.size();
-        int first=-1,sec=-1;
-        int len=0;
-        int ans=len;
-        int ind=-1;
+        int n=fruits.size(),streak=0;;
+        int last=-1,seclast=-1;
+        int len=0,ans=0;
         for(int i=0;i<n;i++){
-            if(fruits[i]==first || fruits[i]==sec){
-                len++;
-            }else if(first==-1){
-                first=fruits[i];
-                len++;
-            }else if(sec==-1){
-                sec=fruits[i];
+            if(fruits[i]==last || fruits[i]==seclast){
                 len++;
             }else{
-                first=fruits[i-1];
-                sec=fruits[i];
-                len=i-ind+1;
+                len=streak+1;
             }
-            if(ind==-1 || fruits[i]!=fruits[ind]){
-                ind=i;
+            if(fruits[i]==last){
+                streak++;
+            }else{
+                streak=1;
+                seclast=last;
+                last=fruits[i];
             }
             ans=max(ans,len);
         }
