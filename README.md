@@ -146,6 +146,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0282-expression-add-operators](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0282-expression-add-operators) |
 | [0387-first-unique-character-in-a-string](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0387-first-unique-character-in-a-string) |
 | [0402-remove-k-digits](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0402-remove-k-digits) |
+| [0424-longest-repeating-character-replacement](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0451-sort-characters-by-frequency) |
 | [0742-to-lower-case](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0742-to-lower-case) |
 | [0812-rotate-string](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0812-rotate-string) |
@@ -212,6 +213,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0205-isomorphic-strings](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0242-valid-anagram) |
 | [0387-first-unique-character-in-a-string](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0387-first-unique-character-in-a-string) |
+| [0424-longest-repeating-character-replacement](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0451-sort-characters-by-frequency) |
 | [0460-lfu-cache](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0460-lfu-cache) |
 | [0496-next-greater-element-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0496-next-greater-element-i) |
@@ -356,6 +358,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0239-sliding-window-maximum](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0239-sliding-window-maximum) |
+| [0424-longest-repeating-character-replacement](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0424-longest-repeating-character-replacement) |
 | [0940-fruit-into-baskets](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0940-fruit-into-baskets) |
 | [1046-max-consecutive-ones-iii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1046-max-consecutive-ones-iii) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
