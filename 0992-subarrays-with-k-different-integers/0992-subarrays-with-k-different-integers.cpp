@@ -5,15 +5,16 @@ public:
         int ans=0,l=0;
         unordered_map<int,int>mp;
         for(int i=0;i<n;i++){
+            if (mp[nums[i]] == 0) {
+                k--;
+            }
             mp[nums[i]]++;
-            if(mp.size()>k){
-                while(mp.size()>k){
-                    mp[nums[l]]--;
-                    if(mp[nums[l]]==0){
-                        mp.erase(nums[l]);
-                    }
-                    l++;
+            while(k<0){
+                mp[nums[l]]--;
+                if(mp[nums[l]]==0){
+                    k++;
                 }
+                l++;
             }
             ans+=i-l+1;
         }
