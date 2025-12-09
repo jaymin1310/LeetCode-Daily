@@ -1,33 +1,42 @@
 class Solution {
 public:
-    int findIndex(vector<int>& nums, int start, int end) {
-        int pivot = nums[start];
-        int low = start + 1;
-        int high = end;
-        while (low <= high) {
-            while (low <= high && nums[low] > pivot)
-                low++;
-            while (low <= high && nums[high] <= pivot)
-                high--;
-            if (low < high) {
-                swap(nums[low], nums[high]);
+    int partition(vector<int>& nums, int left, int right) {
+        // choose random pivot and move to right
+        int pivotIndex = left + rand() % (right - left + 1);
+        swap(nums[pivotIndex], nums[right]);
+        
+        int pivot = nums[right];
+        int store = left;
+
+        // Partition so that greater elements come first
+        for (int i = left; i < right; i++) {
+            if (nums[i] > pivot) {  // for kth largest
+                swap(nums[i], nums[store]);
+                store++;
             }
         }
-        swap(nums[start], nums[high]);
-        return high;
+
+        swap(nums[store], nums[right]);
+        return store;
     }
-    int partation(vector<int>& nums, int start, int end, int k) {
-        int pind = findIndex(nums, start, end);
-        if (pind + 1 == k)
-            return nums[pind];
-        else if (pind >= k) {
-            end = pind - 1;
-        } else {
-            start = pind + 1;
-        }
-        return partation(nums, start, end, k);
+
+    int quickSelect(vector<int>& nums, int left, int right, int k) {
+        if (left == right) return nums[left];
+
+        int pivotIndex = partition(nums, left, right);
+        
+        if (pivotIndex == k)
+            return nums[pivotIndex];
+        else if (pivotIndex < k)
+            return quickSelect(nums, pivotIndex + 1, right, k);
+        else
+            return quickSelect(nums, left, pivotIndex - 1, k);
     }
+
     int findKthLargest(vector<int>& nums, int k) {
-        return partation(nums, 0, nums.size() - 1, k);
+        srand(time(NULL));  
+        int n = nums.size();
+        int index = k - 1;   // we want kth largest = index k-1 in descending order
+        return quickSelect(nums, 0, n - 1, index);
     }
 };
