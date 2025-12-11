@@ -22,8 +22,9 @@ public:
         }
         ListNode* traverse=head;
         while(!pq.empty()){
-            traverse->next=pq.top();
-            if(pq.top()->next)pq.push(pq.top()->next);
+            ListNode* node=pq.top();
+            traverse->next=node;
+            if(node->next)pq.push(node->next);
             pq.pop();
             traverse=traverse->next;
         }
