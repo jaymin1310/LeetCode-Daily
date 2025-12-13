@@ -5,34 +5,29 @@ public:
           for(int i=0;i<tasks.size();i++){
             freq[tasks[i]-'A']++;
           }
-          priority_queue<pair<int,int>>pq;
+          priority_queue<int>pq;
           for(int i=0;i<26;i++){
             if(freq[i]>0){
-                pq.push({freq[i],i});
+                pq.push(freq[i]);
             }
           }
-          int ans=0;
-          queue<pair<int,int>>cool;
-        while(true){
-            int tot=pq.size();
-            int cnt=0;
-            while(!pq.empty() && cnt<n+1){
-                auto it=pq.top();
+          int tot=0;
+        while(!pq.empty()){
+            vector<int>temp;
+            int cycle=n+1;
+            while(!pq.empty() && cycle>0){
+                int it=pq.top();
                 pq.pop();
-                it.first--;
-                if(it.first>0)cool.push(it);
-                cnt++;
+                tot++;
+                if(it-1>0)temp.push_back(it-1);
+                cycle--;
             }
-            if(cool.empty()){
-                ans+=tot;
-                break;
+            for(int t:temp){
+                pq.push(t);
             }
-            ans+=n+1;
-            while(!cool.empty()){
-                pq.push(cool.front());
-                cool.pop();
-            }
+            if(pq.empty())break;
+            tot+=cycle;
         }
-        return ans;
+        return tot;
     }
 };
