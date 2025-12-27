@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0045-jump-game-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0045-jump-game-ii) |
 | [0051-n-queens](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0051-n-queens) |
 | [0055-jump-game](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0055-jump-game) |
+| [0057-insert-interval](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0057-insert-interval) |
 | [0074-search-a-2d-matrix](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0079-word-search) |
