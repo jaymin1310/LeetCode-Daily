@@ -6,8 +6,6 @@ public:
         int newintStart = -1, newintLast = -1;
         int i = 0;
         vector<vector<int>> res;
-
-        // Add intervals that come before newInterval
         while (i < n && intervals[i][1] < newInterval[0]) {
             res.push_back(intervals[i]);
             i++;
@@ -18,12 +16,10 @@ public:
             i++;
         }
         res.push_back(newInterval);
-        // Push remaining intervals
         while (i < n) {
             res.push_back(intervals[i]);
             i++;
         }
-
         return res;
     }
 };
