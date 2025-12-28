@@ -6,15 +6,17 @@ public:
         sort(intervals.begin(),intervals.end());
         int prevstart=intervals[0][0],prevend=intervals[0][1],remove=0;
         for(int i=1;i<n;i++){
-            if(intervals[i][0]<prevend){
+            int curstart=intervals[i][0];
+            int curend=intervals[i][1];
+            if(curstart<prevend){
                 remove++;
-                if(intervals[i][1]<prevend){
-                    prevstart=intervals[i][0];
-                    prevend=intervals[i][1];
+                if(curend<prevend){
+                    prevstart=curstart;
+                    prevend=curend;
                 }
             }else{
-                prevstart=intervals[i][0];
-                prevend=intervals[i][1];
+                prevstart=curstart;
+                prevend=curend;
             }
         }
         return remove;
