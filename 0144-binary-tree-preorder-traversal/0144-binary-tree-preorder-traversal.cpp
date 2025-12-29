@@ -12,18 +12,14 @@
 class Solution {
 public:
     vector<int>res;
-    vector<int> preorderTraversal(TreeNode* root) {
-        if(root==nullptr)return {};
-        vector<int>left=preorderTraversal(root->left);
-        vector<int>right=preorderTraversal(root->right);
-        vector<int>res;
+    void rec(TreeNode* root){
+        if(root==nullptr)return;
         res.push_back(root->val);
-        for(int x:left){
-            res.push_back(x);
-        }
-        for(int x:right){
-            res.push_back(x);
-        }
+        rec(root->left);
+        rec(root->right);
+    }
+    vector<int> preorderTraversal(TreeNode* root) {
+        rec(root);
         return res;
     }
 };
