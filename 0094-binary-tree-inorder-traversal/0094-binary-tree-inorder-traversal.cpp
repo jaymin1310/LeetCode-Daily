@@ -17,15 +17,14 @@ public:
         stack<TreeNode*> st;
         TreeNode* temp = root;
         while (temp || !st.empty()) {
-            if (temp == nullptr) {
-                temp = st.top();
-                st.pop();
-                res.push_back(temp->val);
-                temp = temp->right;
-            } else {
+            while(temp){
                 st.push(temp);
-                temp = temp->left;
+                temp=temp->left;
             }
+            temp = st.top();
+            st.pop();
+            res.push_back(temp->val);
+            temp = temp->right;
         }
         return res;
     }
