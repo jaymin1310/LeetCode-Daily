@@ -11,21 +11,13 @@
  */
 class Solution {
 public:
-    int maxDepth(TreeNode* root) {
-        queue<TreeNode*>st;
-        if(root==nullptr)return 0;
-        st.push(root);
-        int level=0;
-        while(!st.empty()){
-            int size=st.size();
-            while(size--){
-                TreeNode* top=st.front();
-                st.pop();
-                if(top->left)st.push(top->left);
-                if(top->right)st.push(top->right);
-            }
-            level++;
+    int recursion(TreeNode* root,int level){
+        if(root==nullptr){
+            return level;
         }
-        return level;
+        return max(recursion(root->left,level+1),recursion(root->right,level+1));
+    }
+    int maxDepth(TreeNode* root) {
+        return recursion(root,0);
     }
 };
