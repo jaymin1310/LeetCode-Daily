@@ -14,11 +14,11 @@ public:
     long long mul=1;
     long long recursion(TreeNode* root,long long sum){
         if(root==nullptr)return 0;
-        long long temp= recursion(root->left,sum)+
-        recursion(root->right,sum)+root->val;
-        mul=max(mul,temp*(sum-temp));
-        return temp;
-
+        long long left=recursion(root->left,sum);
+        long long right=recursion(root->right,sum);
+        long long tempsum=left+right+root->val;
+        mul=max(mul,tempsum*(sum-tempsum));
+        return tempsum;
     }
     int maxProduct(TreeNode* root) {
         long long sum=0;
