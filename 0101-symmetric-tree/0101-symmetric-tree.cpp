@@ -12,10 +12,10 @@
 class Solution {
 public:
     bool recursion(TreeNode* leftnode,TreeNode* rightnode){
-        if(!leftnode && !rightnode)return true;
-        if(!leftnode || !rightnode) return false;
-        if(leftnode->val!=rightnode->val)return false;
-        return recursion(leftnode->left,rightnode->right) && 
+        if(!leftnode || !rightnode) 
+            return leftnode==rightnode;
+        return (leftnode->val==rightnode->val) &&
+            recursion(leftnode->left,rightnode->right) && 
             recursion(leftnode->right,rightnode->left);
 
     }
