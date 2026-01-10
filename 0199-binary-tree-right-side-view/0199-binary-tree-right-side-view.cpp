@@ -14,18 +14,17 @@ public:
     vector<int> rightSideView(TreeNode* root) {
         if(root==nullptr)return {};
         vector<int>res;
-        queue<pair<TreeNode*,int>>qu;
-        qu.push({root,0});
+        queue<TreeNode*>qu;
+        qu.push(root);
         while(!qu.empty()){
             int size=qu.size();
             while(size--){
-                auto it=qu.front();
+                TreeNode* front=qu.front();
                 qu.pop();
-                TreeNode* front=it.first;
                 if(front->left)
-                    qu.push({front->left,it.second-1});
+                    qu.push(front->left);
                 if(front->right)
-                    qu.push({front->right,it.second+1});
+                    qu.push(front->right);
                 if(size==0){
                     res.push_back(front->val);
                 }
