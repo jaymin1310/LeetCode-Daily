@@ -11,18 +11,16 @@
  */
 class Solution {
 public:
-    int countNodes(TreeNode* root) {
+    int leftHeight(TreeNode* root){
         if(!root)return 0;
-        int total=0;
-        queue<TreeNode*>qu;
-        qu.push(root);
-        while(!qu.empty()){
-            TreeNode* front=qu.front();
-            qu.pop();
-            if(front->left)qu.push(front->left);
-            if(front->right)qu.push(front->right);
-            total++;
-        }
-        return total;
+        return leftHeight(root->left)+1;
+    }
+    int rightHeight(TreeNode* root){
+        if(!root)return 0;
+        return rightHeight(root->right)+1;
+    }
+    int countNodes(TreeNode* root) {
+        if(leftHeight(root)==rightHeight(root))return pow(2,leftHeight(root))-1;
+        return 1+countNodes(root->left)+countNodes(root->right);
     }
 };
