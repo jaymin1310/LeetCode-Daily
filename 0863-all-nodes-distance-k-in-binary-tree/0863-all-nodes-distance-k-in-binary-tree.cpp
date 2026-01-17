@@ -1,37 +1,17 @@
 class Solution {
 public:
-    vector<int> childatKdistance(TreeNode* root, int k, TreeNode* blocked) {
-        if (!root || k < 0) return {};
-        if (k == 0) return {root->val};
-
-        vector<int> temp;
-
-        if (root->left && root->left != blocked) {
-            auto left = childatKdistance(root->left, k - 1, blocked);
-            temp.insert(temp.end(), left.begin(), left.end());
-        }
-
-        if (root->right && root->right != blocked) {
-            auto right = childatKdistance(root->right, k - 1, blocked);
-            temp.insert(temp.end(), right.begin(), right.end());
-        }
-
-        return temp;
-    }
-
     vector<int> distanceK(TreeNode* root, TreeNode* target, int k) {
         if (!root) return {};
 
         unordered_map<TreeNode*, TreeNode*> parent;
         queue<TreeNode*> q;
-
-        parent[root] = nullptr;
+        parent[root] = root;
         q.push(root);
 
         // Mark parents
         while (!q.empty()) {
             TreeNode* cur = q.front(); q.pop();
-
+            
             if (cur->left) {
                 parent[cur->left] = cur;
                 q.push(cur->left);
@@ -42,19 +22,36 @@ public:
             }
         }
 
-        vector<int> ans;
-        TreeNode* curr = target;
-        TreeNode* blocked = nullptr;
-
-        while (curr) {
-            auto nodes = childatKdistance(curr, k, blocked);
-            ans.insert(ans.end(), nodes.begin(), nodes.end());
-
-            blocked = curr;
-            curr = parent[curr];
-            k--;
+        unordered_set<TreeNode*>visited;
+        q.push(target);
+        visited.insert(target);
+        int dist=0;
+        while (!q.empty()) {
+            if(dist==k)break;
+            int size=q.size();
+            while(size--){
+                TreeNode* front=q.front();
+                q.pop();
+                if(front->left && visited.find(front->left)==visited.end()){
+                    q.push(front->left);
+                    visited.insert(front->left);
+                }
+                if(front->right&& visited.find(front->right)==visited.end()){
+                    q.push(front->right);
+                    visited.insert(front->right);
+                }
+                if( visited.find(parent[front])==visited.end()){
+                    q.push(parent[front]);
+                    visited.insert(parent[front]);
+                }
+            }
+            dist++;  
         }
-
+        vector<int>ans;
+        while(!q.empty()){
+            ans.push_back(q.front()->val);
+            q.pop();
+        }
         return ans;
     }
 };
