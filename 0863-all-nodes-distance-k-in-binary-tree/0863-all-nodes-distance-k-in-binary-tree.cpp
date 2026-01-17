@@ -1,60 +1,60 @@
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     TreeNode *left;
- *     TreeNode *right;
- *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
- * };
- */
 class Solution {
 public:
-    vector<int> childatKdistance(TreeNode* root,int k,TreeNode* visited){
-        vector<int>temp;
-        if(k==0){
-            return {root->val};
+    vector<int> childatKdistance(TreeNode* root, int k, TreeNode* blocked) {
+        if (!root || k < 0) return {};
+        if (k == 0) return {root->val};
+
+        vector<int> temp;
+
+        if (root->left && root->left != blocked) {
+            auto left = childatKdistance(root->left, k - 1, blocked);
+            temp.insert(temp.end(), left.begin(), left.end());
         }
-        if(root->left && root->left!=visited){
-            vector<int> allnodes = childatKdistance(root->left, k-1,visited);
-            temp.insert(temp.end(), allnodes.begin(), allnodes.end());
+
+        if (root->right && root->right != blocked) {
+            auto right = childatKdistance(root->right, k - 1, blocked);
+            temp.insert(temp.end(), right.begin(), right.end());
         }
-        if(root->right && root->right!=visited){
-            vector<int>allnodes=childatKdistance(root->right,k-1,visited);
-            temp.insert(temp.end(),allnodes.begin(),allnodes.end());
-        }
+
         return temp;
     }
+
     vector<int> distanceK(TreeNode* root, TreeNode* target, int k) {
-        vector<int>ans;
-        if(!root)return ans;
-        queue<TreeNode*>qu;
-        unordered_map<TreeNode*,TreeNode*>parent;
-        parent[root]=nullptr;
-        qu.push(root);
-        while(!qu.empty()){
-            int size=qu.size();
-            while(size--){
-                TreeNode* front=qu.front();
-                qu.pop();
-                if(front->left){
-                    qu.push(front->left);
-                    parent[front->left]=front;
-                }
-                if(front->right){
-                    qu.push(front->right);
-                    parent[front->right]=front;
-                }
+        if (!root) return {};
+
+        unordered_map<TreeNode*, TreeNode*> parent;
+        queue<TreeNode*> q;
+
+        parent[root] = nullptr;
+        q.push(root);
+
+        // Mark parents
+        while (!q.empty()) {
+            TreeNode* cur = q.front(); q.pop();
+
+            if (cur->left) {
+                parent[cur->left] = cur;
+                q.push(cur->left);
+            }
+            if (cur->right) {
+                parent[cur->right] = cur;
+                q.push(cur->right);
             }
         }
-        TreeNode* tempnode=target;
-        TreeNode* marked=nullptr;
-        while(tempnode){
-            vector<int>allnodes=childatKdistance(tempnode,k,marked);
-            ans.insert(ans.end(),allnodes.begin(),allnodes.end());
+
+        vector<int> ans;
+        TreeNode* curr = target;
+        TreeNode* blocked = nullptr;
+
+        while (curr) {
+            auto nodes = childatKdistance(curr, k, blocked);
+            ans.insert(ans.end(), nodes.begin(), nodes.end());
+
+            blocked = curr;
+            curr = parent[curr];
             k--;
-            marked=tempnode;
-            tempnode=parent[tempnode];
         }
+
         return ans;
     }
 };
