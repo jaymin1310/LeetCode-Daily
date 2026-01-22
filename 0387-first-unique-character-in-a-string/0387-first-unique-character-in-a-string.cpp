@@ -3,7 +3,7 @@ public:
     int firstUniqChar(string s) {
         vector<int> freq(26, 0);
 
-        // Count frequency of each character
+        // Count freequency of each character
         for (char c : s) {
             freq[c - 'a']++;
         }
