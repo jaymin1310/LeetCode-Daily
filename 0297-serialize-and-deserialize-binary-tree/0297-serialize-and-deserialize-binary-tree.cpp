@@ -31,29 +31,21 @@ public:
         return res;
     }
     //build tree
-    TreeNode* buildTree(vector<string>&tokens,int& ind){
-        if(ind >= tokens.size() || tokens[ind]=="#"){
-            ind++;
-            return nullptr;
-        }
-        int value=stoi(tokens[ind]);
-        ind++;
+    TreeNode* buildTree(stringstream & ss){
+        string token;
+        getline(ss,token,',');
+        if(token=="#")return nullptr;
+        int value=stoi(token);
         TreeNode* root=new TreeNode(value);
-        root->left=buildTree(tokens,ind);
-        root->right=buildTree(tokens,ind);
+        root->left=buildTree(ss);
+        root->right=buildTree(ss);
         return root;
     }
     // Decodes your encoded data to tree.
     TreeNode* deserialize(string data) {
         int n=data.size();
         stringstream ss(data);
-        vector<string>tokens;
-        string token;
-        while(getline(ss,token,',')){
-            tokens.push_back(token);
-        }
-        int ind=0;
-        return buildTree(tokens,ind);
+        return buildTree(ss);
     }
 };
 
