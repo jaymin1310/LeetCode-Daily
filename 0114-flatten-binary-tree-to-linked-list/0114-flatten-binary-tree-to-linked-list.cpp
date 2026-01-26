@@ -17,19 +17,13 @@ public:
                 root=root->right;
             }else{
                 TreeNode* leftTree=root->left;
-                while(leftTree->right && leftTree->right!=root){
+                while(leftTree->right){
                     leftTree=leftTree->right;
                 }
-                if(leftTree->right){
-                    TreeNode* temp=root->right;
-                    leftTree->right=temp;
-                    root->right=root->left;
-                    root->left=nullptr;
-                    root=temp;
-                }else{
-                    leftTree->right=root;
-                    root=root->left;
-                }
+                leftTree->right=root->right;
+                root->right=root->left;
+                root->left=nullptr;
+                root=root->right;
             }
         }
     }
