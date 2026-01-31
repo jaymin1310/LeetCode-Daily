@@ -11,12 +11,10 @@
 class Solution {
 public:
     TreeNode* helper(TreeNode* root, TreeNode* p, TreeNode* q) {
-        if (!root || root == p || root == q)
+        if (!root)
             return root;
-        TreeNode* nextnode1 = (root->val < p->val) ? root->right : root->left;
-        TreeNode* nextnode2 = (root->val < q->val) ? root->right : root->left;
-        if (nextnode1 == nextnode2)
-            return helper(nextnode1, p, q);
+        if(root->val < p->val && root->val < q->val) return helper(root->right,p,q);
+        if(root->val > p->val && root->val > q->val) return helper(root->left,p,q);
         return root;
     }
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
