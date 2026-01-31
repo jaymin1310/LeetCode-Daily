@@ -17,14 +17,6 @@ public:
         TreeNode* nextnode2 = (root->val < q->val) ? root->right : root->left;
         if (nextnode1 == nextnode2)
             return helper(nextnode1, p, q);
-        else {
-            TreeNode* t1 = helper(nextnode1, p, q);
-            TreeNode* t2 = helper(nextnode2, p, q);
-            if (!t1)
-                return t2;
-            if (!t2)
-                return t1;
-        }
         return root;
     }
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
