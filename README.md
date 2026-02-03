@@ -69,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2876-number-of-employees-who-met-the-target](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2876-number-of-employees-who-met-the-target) |
 | [3024-type-of-triangle](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3024-type-of-triangle) |
 | [3232-find-if-digit-game-can-be-won](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3232-find-if-digit-game-can-be-won) |
+| [3637-trionic-array-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3637-trionic-array-i) |
 ## Binary Search
 |  |
 | ------- |
