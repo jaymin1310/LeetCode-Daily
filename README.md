@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0152-maximum-product-subarray](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0162-find-peak-element) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0204-count-primes](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0204-count-primes) |
 | [0215-kth-largest-element-in-an-array](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0215-kth-largest-element-in-an-array) |
 | [0216-combination-sum-iii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0216-combination-sum-iii) |
@@ -79,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0074-search-a-2d-matrix) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0162-find-peak-element) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0222-count-complete-tree-nodes](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0222-count-complete-tree-nodes) |
 | [0240-search-a-2d-matrix-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0240-search-a-2d-matrix-ii) |
 | [0410-split-array-largest-sum](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0410-split-array-largest-sum) |
@@ -242,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0148-sort-list](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0148-sort-list) |
 | [0151-reverse-words-in-a-string](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0151-reverse-words-in-a-string) |
 | [0160-intersection-of-two-linked-lists](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0160-intersection-of-two-linked-lists) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0234-palindrome-linked-list](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0234-palindrome-linked-list) |
 | [0295-find-median-from-data-stream](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0295-find-median-from-data-stream) |
 | [0908-middle-of-the-linked-list](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0908-middle-of-the-linked-list) |
