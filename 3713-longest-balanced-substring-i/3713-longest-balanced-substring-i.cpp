@@ -5,21 +5,15 @@ public:
         int ans=0;
         for(int k=0;k<n;k++){
             vector<int>freq(26,0);
+            int dist=0,maxfreq=0;
             for(int j=k;j<n;j++){
-                freq[s[j]-'a']++;
-                int balance=0;
-                bool valid=true;
-                for(int i=0;i<26;i++){
-                    if(freq[i]!=0){
-                        if(!balance)balance=freq[i];
-                        else if(freq[i]!=balance){
-                            valid=false;
-                            break;
-                        }
-                    }
-                }
-                if(valid)
-                ans=max(ans,j-k+1);
+                int ind=s[j]-'a';
+                if(!freq[ind])dist++;
+                freq[ind]++;
+                maxfreq=max(freq[ind],maxfreq);
+                int len=j-k+1;
+                if(maxfreq*dist==len)
+                    ans=max(ans,j-k+1);
             }
         }
         return ans;
