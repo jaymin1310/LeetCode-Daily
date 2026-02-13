@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0940-fruit-into-baskets](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0940-fruit-into-baskets) |
 | [0943-sum-of-subarray-minimums](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0943-sum-of-subarray-minimums) |
 | [0992-subarrays-with-k-different-integers](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0992-subarrays-with-k-different-integers) |
+| [0994-rotting-oranges](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0994-rotting-oranges) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1046-max-consecutive-ones-iii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1056-capacity-to-ship-packages-within-d-days) |
@@ -175,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0079-word-search) |
 | [0085-maximal-rectangle](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0085-maximal-rectangle) |
 | [0240-search-a-2d-matrix-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0240-search-a-2d-matrix-ii) |
+| [0994-rotting-oranges](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0994-rotting-oranges) |
 | [2047-find-a-peak-element-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2047-find-a-peak-element-ii) |
 | [2737-row-with-maximum-ones](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2737-row-with-maximum-ones) |
 ## String
@@ -621,6 +623,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0662-maximum-width-of-binary-tree) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
+| [0994-rotting-oranges](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0994-rotting-oranges) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 ## Geometry
 |  |
