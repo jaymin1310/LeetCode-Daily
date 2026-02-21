@@ -127,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0258-add-digits](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0258-add-digits) |
 | [0282-expression-add-operators](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0282-expression-add-operators) |
 | [0382-linked-list-random-node](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0382-linked-list-random-node) |
+| [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
 | [1248-count-number-of-nice-subarrays](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1248-count-number-of-nice-subarrays) |
 | [1266-minimum-time-visiting-all-points](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1266-minimum-time-visiting-all-points) |
 | [2032-largest-odd-number-in-string](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2032-largest-odd-number-in-string) |
@@ -430,6 +431,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0136-single-number) |
 | [0222-count-complete-tree-nodes](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0222-count-complete-tree-nodes) |
 | [0231-power-of-two](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0231-power-of-two) |
+| [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2323-minimum-bit-flips-to-convert-number) |
 ## Depth-First Search
 |  |
