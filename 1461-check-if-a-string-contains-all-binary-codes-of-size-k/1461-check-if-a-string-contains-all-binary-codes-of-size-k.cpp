@@ -2,14 +2,18 @@ class Solution {
 public:
     bool hasAllCodes(string s, int k) {
         int n=s.size();
-        unordered_set<string>st;
-        for(int i=0;i<=n-k;i++){
-            string temp;
-            for(int j=i;j<k+i;j++){
-                temp+=s[j];
+        int total=1<<k;
+        int mask=total-1;
+        vector<int>mark(total,0);
+        int hash=0;
+        for(int i=0;i<n;i++){
+            hash=((hash<<1)&mask)|s[i]-'0';
+            if(i>=k-1){
+                mark[hash]=1;
             }
-            st.insert(temp);
+        }for(int i=0;i<total;i++){
+            if(!mark[i])return false;
         }
-        return (st.size()==pow(2,k));
+        return true;
     }
 };
