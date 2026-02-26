@@ -1,13 +1,9 @@
 class Solution {
 public:
-    bool isEven(string s){
-        if(s.back()=='1')return false;
-        return true;
-    }
     int numSteps(string s) {
         int cnt=0;
         while(s!="1"){
-            if(isEven(s)){
+            if(s.back()!='1'){
                 s.pop_back();
             }else{
                 int carry=1,i=s.size()-1;
@@ -20,6 +16,8 @@ public:
                     i--;
                 }
                 if(carry)s='1'+s;
+                s.pop_back();
+                cnt++;
             }
             cnt++;
         }
