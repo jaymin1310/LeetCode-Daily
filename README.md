@@ -220,6 +220,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0812-rotate-string](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0812-rotate-string) |
 | [1078-remove-outermost-parentheses](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1078-remove-outermost-parentheses) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1358-number-of-substrings-containing-all-three-characters) |
+| [1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1890-sum-of-beauty-of-all-substrings) |
@@ -412,6 +413,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0067-add-binary](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0067-add-binary) |
 | [0258-add-digits](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0258-add-digits) |
 | [0735-asteroid-collision](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0735-asteroid-collision) |
+| [1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
 ## Number Theory
 |  |
 | ------- |
@@ -446,6 +448,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
 | [0868-binary-gap](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0868-binary-gap) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
+| [1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2323-minimum-bit-flips-to-convert-number) |
 ## Depth-First Search
