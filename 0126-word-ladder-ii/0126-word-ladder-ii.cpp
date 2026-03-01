@@ -4,9 +4,9 @@ public:
              vector<string>& temp) {
         string last = temp.back();
         if (mp[last] == 0) {
-            reverse(temp.begin(), temp.end());
-            ans.push_back(temp);
-            reverse(temp.begin(), temp.end());
+            vector<string> result = temp;
+            reverse(result.begin(), result.end());
+            ans.push_back(result);
             return;
         }
         string word = last;
@@ -14,6 +14,7 @@ public:
             char org = word[ind];
             for (int i = 0; i < 26; i++) {
                 word[ind] = i + 'a';
+                if (word[ind] == org) continue;
                 if (mp.find(word) != mp.end() && mp[last] == mp[word] + 1) {
                     temp.push_back(word);
                     dfs(mp, ans, temp);
