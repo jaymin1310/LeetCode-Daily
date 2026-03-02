@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0200-number-of-islands](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0200-number-of-islands) |
 | [0204-count-primes](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0204-count-primes) |
 | [0215-kth-largest-element-in-an-array](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0215-kth-largest-element-in-an-array) |
 | [0216-combination-sum-iii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0216-combination-sum-iii) |
@@ -184,6 +185,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0079-word-search) |
 | [0085-maximal-rectangle](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0085-maximal-rectangle) |
 | [0130-surrounded-regions](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0130-surrounded-regions) |
+| [0200-number-of-islands](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0200-number-of-islands) |
 | [0240-search-a-2d-matrix-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0240-search-a-2d-matrix-ii) |
 | [0542-01-matrix](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0542-01-matrix) |
 | [0994-rotting-oranges](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0994-rotting-oranges) |
@@ -470,6 +472,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0144-binary-tree-preorder-traversal](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0207-course-schedule) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
@@ -655,6 +658,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0126-word-ladder-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0126-word-ladder-ii) |
 | [0130-surrounded-regions](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0130-surrounded-regions) |
 | [0199-binary-tree-right-side-view](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0207-course-schedule) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0542-01-matrix](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0542-01-matrix) |
@@ -695,5 +699,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0130-surrounded-regions](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0130-surrounded-regions) |
+| [0200-number-of-islands](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0200-number-of-islands) |
 | [1020-number-of-enclaves](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1020-number-of-enclaves) |
 <!---LeetCode Topics End-->
