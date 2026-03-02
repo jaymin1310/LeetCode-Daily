@@ -12,16 +12,16 @@ public:
 
     }
     int numIslands(vector<vector<char>>& grid) {
-        vector<vector<char>>temp=grid;
         int cnt=0;
         int m=grid.size();
         int n=grid[0].size();
         for(int i=0;i<m;i++){
             for(int j=0;j<n;j++){
-                if(temp[i][j]=='1'){
+                if(grid[i][j]=='1'){
                     cnt++;
-                    helper(temp,i,j);
+                    helper(grid,i,j);
                 }
+                else if(grid[i][j]=='#')grid[i][j]='1';
             }
         }
         return cnt;
