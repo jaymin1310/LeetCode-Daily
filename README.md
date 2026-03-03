@@ -228,6 +228,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
+| [1545-find-kth-bit-in-nth-binary-string](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1545-find-kth-bit-in-nth-binary-string) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [2032-largest-odd-number-in-string](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2032-largest-odd-number-in-string) |
@@ -408,6 +409,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0206-reverse-linked-list](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0206-reverse-linked-list) |
 | [0231-power-of-two](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0231-power-of-two) |
 | [0234-palindrome-linked-list](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0234-palindrome-linked-list) |
+| [1545-find-kth-bit-in-nth-binary-string](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1545-find-kth-bit-in-nth-binary-string) |
 | [2050-count-good-numbers](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2050-count-good-numbers) |
 ## Merge Sort
 |  |
@@ -421,6 +423,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0258-add-digits](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0258-add-digits) |
 | [0735-asteroid-collision](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0735-asteroid-collision) |
 | [1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
+| [1545-find-kth-bit-in-nth-binary-string](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1545-find-kth-bit-in-nth-binary-string) |
 ## Number Theory
 |  |
 | ------- |
