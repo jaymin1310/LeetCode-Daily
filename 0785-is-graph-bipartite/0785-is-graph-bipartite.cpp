@@ -11,15 +11,13 @@ public:
                 while(!qu.empty()){
                     int front=qu.front();
                     qu.pop();
-                    int gp1=(vis[front]==1)?1:0;
                     for(auto &it:graph[front]){
-                        if(!vis[it])qu.push(it);
-                        if(gp1){
-                            if(vis[it]==1)return false;
-                            vis[it]=2;
-                        }else{
-                            if(vis[it]==2)return false;
-                            vis[it]=1;
+                        if(!vis[it]){
+                            vis[it] = 3 - vis[front];
+                            qu.push(it);
+                        }
+                        else if(vis[it] == vis[front]){
+                            return false;
                         }
                     }
                 }
