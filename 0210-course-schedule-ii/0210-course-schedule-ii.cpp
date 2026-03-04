@@ -23,10 +23,8 @@ public:
         }
         for (int i = 0; i < numCourses; i++) {
             if (!vis[i]) {
-                vector<int>temp;
-                if (!DFShelper(adj, vis, i,temp))
+                if (!DFShelper(adj, vis, i,ans))
                     return {};
-                ans.insert(ans.end(), temp.begin(), temp.end());
             }
         }
         return ans;
