@@ -12,18 +12,18 @@ public:
         int stop=0;
         while(!qu.empty()&& stop<=k){
             int size=qu.size();
-            vector<int>temp=dist;
+            //vector<int>temp=dist;
             while(size--){
                 auto [node,currCost]=qu.front();
                 qu.pop();
                 for(auto &&[next,price]:adj[node]){
-                    if((currCost+price)<temp[next]){
-                        temp[next]=currCost+price;
+                    if((currCost+price)<dist[next]){
+                        dist[next]=currCost+price;
                         qu.push({next,currCost+price});
                     }
                 }
             }
-            dist=temp;
+            //dist=temp;
             stop++;
         }
         return dist[dst]==INT_MAX?-1:dist[dst];
