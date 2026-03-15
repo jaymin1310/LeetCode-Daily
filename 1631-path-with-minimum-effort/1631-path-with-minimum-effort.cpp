@@ -1,52 +1,34 @@
 class Solution {
 public:
-    bool dfs(int row, int col, vector<vector<int>>& grid, int mid,
-             vector<vector<int>>& vis) {
-
-        int m = grid.size();
-        int n = grid[0].size();
-
-        if (row == m - 1 && col == n - 1)
-            return true;
-
-        vis[row][col] = 1;
-
-        int dir[4][2] = {{0, -1}, {0, 1}, {-1, 0}, {1, 0}};
-
-        for (auto& d : dir) {
-
-            int nr = row + d[0];
-            int nc = col + d[1];
-
-            if (nr >= 0 && nc >= 0 && nr < m && nc < n && !vis[nr][nc]) {
-
-                if (abs(grid[row][col] - grid[nr][nc]) <= mid) {
-
-                    if (dfs(nr, nc, grid, mid, vis))
-                        return true;
+    int minimumEffortPath(vector<vector<int>>& heights) {
+        int m = heights.size();
+        int n = heights[0].size();
+        priority_queue<pair<int, pair<int, int>>,
+                       vector<pair<int, pair<int, int>>>,
+                       greater<pair<int, pair<int, int>>>>
+            pq;
+        vector<vector<int>> dist(m, vector<int>(n, INT_MAX));
+        dist[0][0] = 0;
+        pq.push({0, {0, 0}});
+        vector<vector<int>> dir = {{0, -1}, {0, 1}, {1, 0}, {-1, 0}};
+        while (!pq.empty()) {
+            auto [diff, cord] = pq.top();
+            int currelem = heights[cord.first][cord.second];
+            int curreffort = dist[cord.first][cord.second];
+            pq.pop();
+            for (auto& it : dir) {
+                int nrow = cord.first + it[0];
+                int ncol = cord.second + it[1];
+                if (nrow >= 0 && ncol >= 0 && nrow < m && ncol < n) {
+                    int diff =
+                        max(abs(heights[nrow][ncol] - currelem), curreffort);
+                    if (diff < dist[nrow][ncol]) {
+                        dist[nrow][ncol] = diff;
+                        pq.push({diff, {nrow, ncol}});
+                    }
                 }
             }
         }
-
-        return false;
-    }
-    int minimumEffortPath(vector<vector<int>>& heights) {
-
-        int low = 0, high = 1e6;
-
-        while (low <= high) {
-
-            int mid = (low + high) / 2;
-
-            vector<vector<int>> vis(heights.size(),
-                                    vector<int>(heights[0].size(), 0));
-
-            if (dfs(0, 0, heights, mid, vis))
-                high = mid - 1;
-            else
-                low = mid + 1;
-        }
-
-        return low;
+        return dist[m - 1][n - 1];
     }
 };
