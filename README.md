@@ -145,6 +145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
 | [1248-count-number-of-nice-subarrays](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1248-count-number-of-nice-subarrays) |
 | [1266-minimum-time-visiting-all-points](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1266-minimum-time-visiting-all-points) |
+| [1622-fancy-sequence](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1622-fancy-sequence) |
 | [2032-largest-odd-number-in-string](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2032-largest-odd-number-in-string) |
 | [2050-count-good-numbers](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2050-count-good-numbers) |
 | [2609-distinct-prime-factors-of-product-of-array](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2609-distinct-prime-factors-of-product-of-array) |
@@ -544,6 +545,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0460-lfu-cache](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0460-lfu-cache) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0937-online-stock-span](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0937-online-stock-span) |
+| [1622-fancy-sequence](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1622-fancy-sequence) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -718,6 +720,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Segment Tree
 |  |
 | ------- |
+| [1622-fancy-sequence](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1622-fancy-sequence) |
 | [3719-longest-balanced-subarray-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3719-longest-balanced-subarray-i) |
 ## Graph Theory
 |  |
