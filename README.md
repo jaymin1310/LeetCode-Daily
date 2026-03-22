@@ -73,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1631-path-with-minimum-effort](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1631-path-with-minimum-effort) |
 | [1646-kth-missing-positive-number](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1646-kth-missing-positive-number) |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1727-largest-submatrix-with-rearrangements) |
+| [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1886-determine-whether-matrix-can-be-obtained-by-rotation) |
 | [1980-find-unique-binary-string](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1980-find-unique-binary-string) |
 | [2047-find-a-peak-element-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2047-find-a-peak-element-ii) |
 | [2219-maximum-number-of-words-found-in-sentences](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2219-maximum-number-of-words-found-in-sentences) |
@@ -214,6 +215,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1582-special-positions-in-a-binary-matrix](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1582-special-positions-in-a-binary-matrix) |
 | [1631-path-with-minimum-effort](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1631-path-with-minimum-effort) |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1727-largest-submatrix-with-rearrangements) |
+| [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1886-determine-whether-matrix-can-be-obtained-by-rotation) |
 | [2047-find-a-peak-element-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2047-find-a-peak-element-ii) |
 | [2737-row-with-maximum-ones](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2737-row-with-maximum-ones) |
 | [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3212-count-submatrices-with-equal-frequency-of-x-and-y) |
