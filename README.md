@@ -83,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2737-row-with-maximum-ones](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2737-row-with-maximum-ones) |
 | [2876-number-of-employees-who-met-the-target](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2876-number-of-employees-who-met-the-target) |
 | [2906-construct-product-matrix](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2906-construct-product-matrix) |
+| [2946-matrix-similarity-after-cyclic-shifts](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 | [3024-type-of-triangle](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3024-type-of-triangle) |
 | [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3212-count-submatrices-with-equal-frequency-of-x-and-y) |
 | [3232-find-if-digit-game-can-be-won](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3232-find-if-digit-game-can-be-won) |
@@ -157,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2050-count-good-numbers](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2050-count-good-numbers) |
 | [2609-distinct-prime-factors-of-product-of-array](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2609-distinct-prime-factors-of-product-of-array) |
 | [2812-find-the-maximum-achievable-number](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2812-find-the-maximum-achievable-number) |
+| [2946-matrix-similarity-after-cyclic-shifts](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 | [3024-type-of-triangle](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3024-type-of-triangle) |
 | [3172-divisible-and-non-divisible-sums-difference](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3172-divisible-and-non-divisible-sums-difference) |
 | [3232-find-if-digit-game-can-be-won](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3232-find-if-digit-game-can-be-won) |
@@ -221,6 +223,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2047-find-a-peak-element-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2047-find-a-peak-element-ii) |
 | [2737-row-with-maximum-ones](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2737-row-with-maximum-ones) |
 | [2906-construct-product-matrix](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2906-construct-product-matrix) |
+| [2946-matrix-similarity-after-cyclic-shifts](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 | [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3212-count-submatrices-with-equal-frequency-of-x-and-y) |
 | [3643-flip-square-submatrix-vertically](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3643-flip-square-submatrix-vertically) |
 ## String
@@ -462,6 +465,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0735-asteroid-collision](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0735-asteroid-collision) |
 | [1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1545-find-kth-bit-in-nth-binary-string) |
+| [2946-matrix-similarity-after-cyclic-shifts](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 ## Number Theory
 |  |
 | ------- |
