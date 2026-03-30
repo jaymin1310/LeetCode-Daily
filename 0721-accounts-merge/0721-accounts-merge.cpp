@@ -48,10 +48,9 @@ public:
         int n = mail_ind.size();
         DSU obj =DSU(n);
         for (auto& it : accounts) {
-            for (int i = 1; i < it.size() - 1; i++) {
-                int ind_u = mail_ind[it[i]];
-                int ind_v = mail_ind[it[i + 1]];
-                obj.unionBySize(ind_u, ind_v);
+            int ind_u = mail_ind[it[1]];
+            for (int i = 2; i < it.size() ; i++) {
+                obj.unionBySize(ind_u, mail_ind[it[i]]);
             }
         }
         unordered_map<int, vector<string>> group;
@@ -61,11 +60,13 @@ public:
         }
         vector<vector<string>> ans;
         for (auto &it:group) {
+            auto &emails=it.second;
             string name = mapto_name[it.second[0]];
-            vector<string>temp;
-            temp.push_back(name);
-            sort(it.second.begin(), it.second.end());
-            temp.insert(temp.end(), it.second.begin(), it.second.end());
+            sort(emails.begin(), emails.end());
+
+            vector<string> temp;
+            temp.push_back(mapto_name[emails[0]]);
+            temp.insert(temp.end(), emails.begin(), emails.end());
             ans.push_back(temp);
         }
         return ans;
