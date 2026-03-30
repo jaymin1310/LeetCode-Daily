@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0542-01-matrix) |
 | [0575-distribute-candies](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0575-distribute-candies) |
 | [0621-task-scheduler](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0621-task-scheduler) |
+| [0721-accounts-merge](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0721-accounts-merge) |
 | [0735-asteroid-collision](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0735-asteroid-collision) |
 | [0846-hand-of-straights](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0846-hand-of-straights) |
 | [0860-lemonade-change](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0860-lemonade-change) |
@@ -257,6 +258,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0451-sort-characters-by-frequency) |
 | [0696-count-binary-substrings](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0696-count-binary-substrings) |
+| [0721-accounts-merge](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0721-accounts-merge) |
 | [0742-to-lower-case](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0742-to-lower-case) |
 | [0812-rotate-string](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0812-rotate-string) |
 | [1078-remove-outermost-parentheses](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1078-remove-outermost-parentheses) |
@@ -355,6 +357,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0496-next-greater-element-i) |
 | [0575-distribute-candies](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0575-distribute-candies) |
 | [0621-task-scheduler](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0621-task-scheduler) |
+| [0721-accounts-merge](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0721-accounts-merge) |
 | [0846-hand-of-straights](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0846-hand-of-straights) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0930-binary-subarrays-with-sum](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0930-binary-subarrays-with-sum) |
@@ -385,6 +388,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0435-non-overlapping-intervals](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0435-non-overlapping-intervals) |
 | [0451-sort-characters-by-frequency](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0451-sort-characters-by-frequency) |
 | [0621-task-scheduler](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0621-task-scheduler) |
+| [0721-accounts-merge](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0721-accounts-merge) |
 | [0846-hand-of-straights](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0846-hand-of-straights) |
 | [1200-minimum-absolute-difference](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1200-minimum-absolute-difference) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
@@ -538,6 +542,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0543-diameter-of-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0662-maximum-width-of-binary-tree) |
+| [0721-accounts-merge](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0721-accounts-merge) |
 | [0743-network-delay-time](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0787-cheapest-flights-within-k-stops) |
@@ -731,6 +736,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0542-01-matrix](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0542-01-matrix) |
 | [0662-maximum-width-of-binary-tree](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0662-maximum-width-of-binary-tree) |
+| [0721-accounts-merge](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0721-accounts-merge) |
 | [0743-network-delay-time](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0787-cheapest-flights-within-k-stops) |
@@ -788,6 +794,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0130-surrounded-regions](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0200-number-of-islands) |
+| [0721-accounts-merge](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0721-accounts-merge) |
 | [0785-is-graph-bipartite](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0785-is-graph-bipartite) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [1020-number-of-enclaves](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1020-number-of-enclaves) |
