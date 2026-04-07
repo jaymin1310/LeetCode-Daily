@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0621-task-scheduler) |
 | [0721-accounts-merge](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0721-accounts-merge) |
 | [0735-asteroid-collision](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0735-asteroid-collision) |
+| [0778-swim-in-rising-water](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0778-swim-in-rising-water) |
 | [0827-making-a-large-island](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0827-making-a-large-island) |
 | [0846-hand-of-straights](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0846-hand-of-straights) |
 | [0860-lemonade-change](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0860-lemonade-change) |
@@ -109,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0240-search-a-2d-matrix-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0240-search-a-2d-matrix-ii) |
 | [0410-split-array-largest-sum](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0410-split-array-largest-sum) |
 | [0540-single-element-in-a-sorted-array](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0540-single-element-in-a-sorted-array) |
+| [0778-swim-in-rising-water](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0778-swim-in-rising-water) |
 | [0907-koko-eating-bananas](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0907-koko-eating-bananas) |
 | [1046-max-consecutive-ones-iii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1056-capacity-to-ship-packages-within-d-days) |
@@ -221,6 +223,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0200-number-of-islands) |
 | [0240-search-a-2d-matrix-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0240-search-a-2d-matrix-ii) |
 | [0542-01-matrix](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0542-01-matrix) |
+| [0778-swim-in-rising-water](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0778-swim-in-rising-water) |
 | [0827-making-a-large-island](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0827-making-a-large-island) |
 | [0994-rotting-oranges](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1020-number-of-enclaves) |
@@ -418,6 +421,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0621-task-scheduler) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0743-network-delay-time](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0743-network-delay-time) |
+| [0778-swim-in-rising-water](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0778-swim-in-rising-water) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1631-path-with-minimum-effort](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1631-path-with-minimum-effort) |
 ## Bucket Sort
@@ -556,6 +560,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0662-maximum-width-of-binary-tree](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0662-maximum-width-of-binary-tree) |
 | [0721-accounts-merge](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0721-accounts-merge) |
 | [0743-network-delay-time](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0743-network-delay-time) |
+| [0778-swim-in-rising-water](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0778-swim-in-rising-water) |
 | [0785-is-graph-bipartite](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0802-find-eventual-safe-states](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0802-find-eventual-safe-states) |
@@ -751,6 +756,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0662-maximum-width-of-binary-tree](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0662-maximum-width-of-binary-tree) |
 | [0721-accounts-merge](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0721-accounts-merge) |
 | [0743-network-delay-time](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0743-network-delay-time) |
+| [0778-swim-in-rising-water](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0778-swim-in-rising-water) |
 | [0785-is-graph-bipartite](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0802-find-eventual-safe-states](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0802-find-eventual-safe-states) |
@@ -809,6 +815,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0200-number-of-islands) |
 | [0721-accounts-merge](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0721-accounts-merge) |
+| [0778-swim-in-rising-water](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0778-swim-in-rising-water) |
 | [0785-is-graph-bipartite](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0785-is-graph-bipartite) |
 | [0827-making-a-large-island](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0827-making-a-large-island) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0947-most-stones-removed-with-same-row-or-column) |
