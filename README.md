@@ -97,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3643-flip-square-submatrix-vertically](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3643-flip-square-submatrix-vertically) |
 | [3719-longest-balanced-subarray-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3719-longest-balanced-subarray-i) |
 | [3740-minimum-distance-between-three-equal-elements-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3740-minimum-distance-between-three-equal-elements-i) |
+| [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
 ## Binary Search
 |  |
 | ------- |
@@ -387,6 +388,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3713-longest-balanced-substring-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3713-longest-balanced-substring-i) |
 | [3719-longest-balanced-subarray-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3719-longest-balanced-subarray-i) |
 | [3740-minimum-distance-between-three-equal-elements-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3740-minimum-distance-between-three-equal-elements-i) |
+| [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
 ## String Matching
 |  |
 | ------- |
