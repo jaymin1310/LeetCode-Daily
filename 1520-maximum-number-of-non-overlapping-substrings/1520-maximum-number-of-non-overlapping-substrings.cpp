@@ -1,81 +1,42 @@
 class Solution {
 public:
-    void finishtime(int u,stack<int>&st,vector<unordered_set<int>>&adj,vector<int>&vis){
-        vis[u]=1;
-        for(auto &it:adj[u]){
-            if(!vis[it]){
-                finishtime(it,st,adj,vis);
-            }
-        }
-        st.push(u);
-    }
-    void dfs(int u,vector<int>&comp,vector<unordered_set<int>>&adj,int ind){
-        comp[u]=ind;
-        for(auto &it:adj[u]){
-            if(comp[it]==-1){
-                dfs(it,comp,adj,ind);
-            }
-        }
-    }
     vector<string> maxNumOfSubstrings(string s) {
         int n=s.size();
-        vector<int>first(26,-1);
-        vector<int>last(26,-1);
+        vector<pair<int,int>>occ(26,{-1,-1});
         for(int i=0;i<n;i++){
-            int temp=s[i]-'a';
-            if(first[temp]==-1){
-                first[temp]=i;
+            if(occ[s[i]-'a'].first==-1){
+                occ[s[i]-'a'].first=i;
             }
-            last[temp]=i;
+            occ[s[i]-'a'].second=i;
         }
-        vector<unordered_set<int>>adj(26);
-        vector<unordered_set<int>>rev(26);
+        vector<pair<int,int>>range(26,{1e9,-1});
         for(int i=0;i<26;i++){
-            if(first[i]==-1)continue;
-            for(int j=first[i];j<=last[i];j++){
-                int x=s[j]-'a';
-                if(x!=i){
-                    adj[i].insert(x);
-                    rev[x].insert(i);
+            if(occ[i].first==-1)continue;
+            int l=occ[i].first,r=occ[i].second;
+            bool valid=true;
+            for(int j=l;j<=r;j++){
+                int temp=s[j]-'a';
+                if(occ[temp].first<l){
+                    valid=false;
+                    break;
                 }
+                r=max(r,occ[temp].second);
+            }
+            if(valid){
+                range[i].first=l;
+                range[i].second=r;
             }
         }
-        vector<int>vis(26,0);
-        stack<int>st;
-        for(int i=0;i<26;i++){
-            if(first[i]!=-1 && !vis[i]){
-                finishtime(i,st,adj,vis);
-            }
-        }
-        vector<int>comp(26,-1);
-        int ind=0;
-        while(!st.empty()){
-            int top=st.top();
-            st.pop();
-            if(comp[top]==-1){
-                dfs(top,comp,rev,ind);
-                ind++;
-            }
-        }
-        vector<int>outdeg(ind,0);
-        for(int i=0;i<26;i++){
-            for(auto &it:adj[i]){
-                if(comp[it]!=comp[i]){
-                    outdeg[comp[i]]++;
-                }
-            }
-        }
-        vector<pair<int,int>> range(ind, {1e9, -1});
-        for(int i=0;i<26;i++){
-            if(first[i] == -1) continue;
-            int ind=comp[i];
-            range[ind].first=min(range[ind].first,first[i]);
-            range[ind].second=max(range[ind].second,last[i]);
-        }
+        sort(range.begin(),range.end(),[](pair<int,int>&a,pair<int,int> &b){
+            return a.second<b.second;
+        });
+        int prev=-1;
         vector<string>ans;
-        for(int i=0;i<ind;i++){
-            if(outdeg[i]==0 && range[i].second!=-1){
-                ans.push_back(s.substr(range[i].first,range[i].second-range[i].first+1));
+        for(auto &it:range){
+            if(it.second == -1) continue;
+            if(it.first>prev){
+                ans.push_back(s.substr(it.first,it.second-it.first+1));
+                prev=it.second;
             }
         }
         return ans;
