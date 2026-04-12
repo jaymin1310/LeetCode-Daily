@@ -185,6 +185,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0621-task-scheduler) |
 | [0846-hand-of-straights](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0846-hand-of-straights) |
 | [0860-lemonade-change](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0860-lemonade-change) |
+| [1520-maximum-number-of-non-overlapping-substrings](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1727-largest-submatrix-with-rearrangements) |
 | [2032-largest-odd-number-in-string](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2032-largest-odd-number-in-string) |
@@ -278,6 +279,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
 | [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
+| [1520-maximum-number-of-non-overlapping-substrings](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1545-find-kth-bit-in-nth-binary-string) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1758-minimum-changes-to-make-alternating-binary-string) |
@@ -381,6 +383,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1248-count-number-of-nice-subarrays](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1248-count-number-of-nice-subarrays) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
+| [1520-maximum-number-of-non-overlapping-substrings](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [1980-find-unique-binary-string](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1980-find-unique-binary-string) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
@@ -409,6 +412,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0846-hand-of-straights](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0846-hand-of-straights) |
 | [1200-minimum-absolute-difference](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1200-minimum-absolute-difference) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
+| [1520-maximum-number-of-non-overlapping-substrings](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1727-largest-submatrix-with-rearrangements) |
 | [2751-robot-collisions](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2751-robot-collisions) |
 | [3024-type-of-triangle](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3024-type-of-triangle) |
