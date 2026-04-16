@@ -95,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3212-count-submatrices-with-equal-frequency-of-x-and-y) |
 | [3232-find-if-digit-game-can-be-won](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3232-find-if-digit-game-can-be-won) |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3418-maximum-amount-of-money-robot-can-earn) |
+| [3488-closest-equal-element-queries](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3488-closest-equal-element-queries) |
 | [3637-trionic-array-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3637-trionic-array-i) |
 | [3643-flip-square-submatrix-vertically](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3643-flip-square-submatrix-vertically) |
 | [3719-longest-balanced-subarray-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3719-longest-balanced-subarray-i) |
@@ -123,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1631-path-with-minimum-effort](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1631-path-with-minimum-effort) |
 | [1646-kth-missing-positive-number](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1646-kth-missing-positive-number) |
 | [2047-find-a-peak-element-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2047-find-a-peak-element-ii) |
+| [3488-closest-equal-element-queries](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3488-closest-equal-element-queries) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -395,6 +397,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1980-find-unique-binary-string](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1980-find-unique-binary-string) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 | [2609-distinct-prime-factors-of-product-of-array](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2609-distinct-prime-factors-of-product-of-array) |
+| [3488-closest-equal-element-queries](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3488-closest-equal-element-queries) |
 | [3713-longest-balanced-substring-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3713-longest-balanced-substring-i) |
 | [3719-longest-balanced-subarray-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3719-longest-balanced-subarray-i) |
 | [3740-minimum-distance-between-three-equal-elements-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3740-minimum-distance-between-three-equal-elements-i) |
