@@ -137,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0055-jump-game) |
+| [0062-unique-paths](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0062-unique-paths) |
 | [0085-maximal-rectangle](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0085-maximal-rectangle) |
 | [0131-palindrome-partitioning](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0131-palindrome-partitioning) |
 | [0152-maximum-product-subarray](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0152-maximum-product-subarray) |
@@ -167,6 +168,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0013-roman-to-integer) |
 | [0029-divide-two-integers](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0029-divide-two-integers) |
 | [0050-powx-n](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0050-powx-n) |
+| [0062-unique-paths](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0062-unique-paths) |
 | [0067-add-binary](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0067-add-binary) |
 | [0069-sqrtx](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0069-sqrtx) |
 | [0204-count-primes](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0204-count-primes) |
@@ -869,4 +871,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0509-fibonacci-number](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0509-fibonacci-number) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
