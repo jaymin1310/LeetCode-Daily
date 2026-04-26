@@ -77,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1463-cherry-pickup-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1463-cherry-pickup-ii) |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+| [1559-detect-cycles-in-2d-grid](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1582-special-positions-in-a-binary-matrix) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1631-path-with-minimum-effort](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1631-path-with-minimum-effort) |
@@ -261,6 +262,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1091-shortest-path-in-binary-matrix](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1463-cherry-pickup-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1463-cherry-pickup-ii) |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
+| [1559-detect-cycles-in-2d-grid](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1582-special-positions-in-a-binary-matrix) |
 | [1631-path-with-minimum-effort](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1631-path-with-minimum-effort) |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1727-largest-submatrix-with-rearrangements) |
@@ -615,6 +617,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1319-number-of-operations-to-make-network-connected](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1373-maximum-sum-bst-in-binary-tree) |
+| [1559-detect-cycles-in-2d-grid](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1631-path-with-minimum-effort](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1631-path-with-minimum-effort) |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1722-minimize-hamming-distance-after-swap-operations) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
@@ -811,6 +814,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1020-number-of-enclaves](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1020-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1319-number-of-operations-to-make-network-connected) |
+| [1559-detect-cycles-in-2d-grid](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1631-path-with-minimum-effort](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1631-path-with-minimum-effort) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 ## Geometry
@@ -867,6 +871,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [1020-number-of-enclaves](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1020-number-of-enclaves) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1319-number-of-operations-to-make-network-connected) |
+| [1559-detect-cycles-in-2d-grid](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1631-path-with-minimum-effort](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1631-path-with-minimum-effort) |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1722-minimize-hamming-distance-after-swap-operations) |
 | [2573-find-the-string-with-lcp](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2573-find-the-string-with-lcp) |
