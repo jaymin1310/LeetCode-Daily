@@ -1,32 +1,41 @@
 class Solution {
 public:
-    int recursion(vector<vector<int>>&grid,int row,int col1,int col2,vector<vector<vector<int>>>&dp){
-        if(row>=grid.size()){
-            return 0;
-        }
-        if(dp[row][col1][col2]!=-1)return dp[row][col1][col2];
-        int maxi=0;
-        int currval;
-        if(col1==col2){
-            currval=grid[row][col1];
-        }else{
-            currval=grid[row][col1]+grid[row][col2];
-        }
-        for(int i=-1;i<=1;i++){
-            for(int j=-1;j<=1;j++){
-                int ncol1=col1+i;
-                int ncol2=col2+j;
-                if( ncol1<0 || ncol2<0 || ncol1>=grid[0].size() || ncol2>=grid[0].size())continue;
-                int ans=recursion(grid,row+1,ncol1,ncol2,dp);
-                maxi=max(maxi,ans);
+    int cherryPickup(vector<vector<int>>& grid) {
+        int row = grid.size();
+        int col = grid[0].size();
+        vector<vector<vector<int>>> dp(
+            row, vector<vector<int>>(col, vector<int>(col, 0)));
+        for (int i = 0; i < col; i++) {
+            for (int j = 0; j < col; j++) {
+                if (i == j)
+                    dp[row - 1][i][j] = grid[row - 1][i];
+                else
+                    dp[row - 1][i][j] = grid[row - 1][i] + grid[row - 1][j];
             }
         }
-        return dp[row][col1][col2]=currval+maxi;
-    }
-    int cherryPickup(vector<vector<int>>& grid) {
-        int row=grid.size();
-        int col=grid[0].size();
-        vector<vector<vector<int>>>dp(row,vector<vector<int>>(col,vector<int>(col,-1)));
-        return recursion(grid,0,0,col-1,dp);
+        for (int i = row - 2; i >= 0; i--) {
+            for (int j = 0; j < col; j++) {
+                for (int k = 0; k < col; k++) {
+                    int value;
+                    if (j == k)
+                        value = grid[i][j];
+                    else
+                        value = grid[i][j] + grid[i][k];
+                    int maxi = 0;
+                    for (int dj1 = -1; dj1 <= 1; dj1++) {
+                        for (int dj2 = -1; dj2 <= 1; dj2++) {
+                            int ncol1 = j + dj1;
+                            int ncol2 = k + dj2;
+                            if (ncol1 >= 0 && ncol2 >= 0 && ncol1 < col &&
+                                ncol2 < col) {
+                                maxi = max(maxi, dp[i + 1][ncol1][ncol2]);
+                            }
+                        }
+                    }
+                    dp[i][j][k] = value + maxi;
+                }
+            }
+        }
+        return dp[0][0][col-1];
     }
 };
