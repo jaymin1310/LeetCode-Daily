@@ -74,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1266-minimum-time-visiting-all-points](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1266-minimum-time-visiting-all-points) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
+| [1463-cherry-pickup-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1463-cherry-pickup-ii) |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1582-special-positions-in-a-binary-matrix) |
@@ -160,6 +161,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1320-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1320-minimum-distance-to-type-a-word-using-two-fingers) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1373-maximum-sum-bst-in-binary-tree) |
+| [1463-cherry-pickup-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1463-cherry-pickup-ii) |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1888-minimum-number-of-flips-to-make-the-binary-string-alternating) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 | [2463-minimum-total-distance-traveled](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2463-minimum-total-distance-traveled) |
@@ -257,6 +259,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0994-rotting-oranges](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1020-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1091-shortest-path-in-binary-matrix) |
+| [1463-cherry-pickup-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1463-cherry-pickup-ii) |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1582-special-positions-in-a-binary-matrix) |
 | [1631-path-with-minimum-effort](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1631-path-with-minimum-effort) |
