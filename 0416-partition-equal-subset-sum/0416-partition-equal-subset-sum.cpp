@@ -9,20 +9,17 @@ public:
         if (totsum % 2 != 0)
             return false;
         int target = totsum / 2;
-        vector<vector<bool>> dp(n, vector<bool>(target + 1, false));
-        for (int i = 0; i < n; i++)
-            dp[i][0] = true;
-        if (nums[n - 1] <= target)
-            dp[n-1][nums[n - 1]] = true;
-        for (int i = n - 2; i >= 0; i--) {
-            for (int j = 1; j <= target; j++) {
+        vector<bool> dp(target + 1, false);
+        dp[0] = true;
+        for (int i = n - 1; i >= 0; i--) {
+            for (int j = target; j >=0; j--) {
                 bool take=false;
                 if (nums[i] <= j)
-                    take = dp[i+ 1][j - nums[i]];
-                bool nottake =dp[i+ 1][j];
-                dp[i][j]=take||nottake;
+                    take = dp[j - nums[i]];
+                bool nottake =dp[j];
+                dp[j]=take||nottake;
             }
         }
-        return dp[0][target];
+        return dp[target];
     }
 };
