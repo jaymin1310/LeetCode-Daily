@@ -12,7 +12,7 @@ public:
         vector<bool> dp(target + 1, false);
         dp[0] = true;
         for (int i = n - 1; i >= 0; i--) {
-            for (int j = target; j >=0; j--) {
+            for (int j = target; j >0; j--) {
                 bool take=false;
                 if (nums[i] <= j)
                     take = dp[j - nums[i]];
