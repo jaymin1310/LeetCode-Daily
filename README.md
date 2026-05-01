@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0239-sliding-window-maximum) |
 | [0240-search-a-2d-matrix-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0240-search-a-2d-matrix-ii) |
 | [0347-top-k-frequent-elements](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0347-top-k-frequent-elements) |
+| [0396-rotate-function](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0396-rotate-function) |
 | [0410-split-array-largest-sum](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0435-non-overlapping-intervals) |
@@ -155,6 +156,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0152-maximum-product-subarray](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0213-house-robber-ii) |
+| [0396-rotate-function](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0396-rotate-function) |
 | [0410-split-array-largest-sum](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0435-non-overlapping-intervals) |
@@ -191,6 +193,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0258-add-digits](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0258-add-digits) |
 | [0282-expression-add-operators](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0282-expression-add-operators) |
 | [0382-linked-list-random-node](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0382-linked-list-random-node) |
+| [0396-rotate-function](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0396-rotate-function) |
 | [0509-fibonacci-number](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0509-fibonacci-number) |
 | [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
 | [1248-count-number-of-nice-subarrays](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1248-count-number-of-nice-subarrays) |
