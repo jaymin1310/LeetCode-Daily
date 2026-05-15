@@ -5,6 +5,10 @@ public:
         int ans=INT_MAX;
         int low=0,high=n-1;
         while(low<=high){
+            if (nums[low] <= nums[high]) {
+                ans = min(ans, nums[low]);
+                break; 
+            }
             int mid=low+(high-low)/2;
             cout<<mid<<endl;
             if(nums[low]<=nums[mid]){
