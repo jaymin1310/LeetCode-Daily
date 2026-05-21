@@ -112,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2906-construct-product-matrix](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2906-construct-product-matrix) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 | [3024-type-of-triangle](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3024-type-of-triangle) |
+| [3043-find-the-length-of-the-longest-common-prefix](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
 | [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3212-count-submatrices-with-equal-frequency-of-x-and-y) |
 | [3232-find-if-digit-game-can-be-won](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3232-find-if-digit-game-can-be-won) |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3418-maximum-amount-of-money-robot-can-earn) |
@@ -350,6 +351,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2231-find-first-palindromic-string-in-the-array](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2231-find-first-palindromic-string-in-the-array) |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2452-words-within-two-edits-of-dictionary) |
 | [2573-find-the-string-with-lcp](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2573-find-the-string-with-lcp) |
+| [3043-find-the-length-of-the-longest-common-prefix](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
 | [3474-lexicographically-smallest-generated-string](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3474-lexicographically-smallest-generated-string) |
 | [3713-longest-balanced-substring-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3713-longest-balanced-substring-i) |
 ## Stack
@@ -406,6 +408,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0014-longest-common-prefix](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0014-longest-common-prefix) |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2452-words-within-two-edits-of-dictionary) |
+| [3043-find-the-length-of-the-longest-common-prefix](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
 ## Hash Table
 |  |
 | ------- |
@@ -451,6 +454,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 | [2609-distinct-prime-factors-of-product-of-array](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2609-distinct-prime-factors-of-product-of-array) |
 | [2784-check-if-array-is-good](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2784-check-if-array-is-good) |
+| [3043-find-the-length-of-the-longest-common-prefix](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
 | [3488-closest-equal-element-queries](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3488-closest-equal-element-queries) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 | [3713-longest-balanced-substring-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3713-longest-balanced-substring-i) |
