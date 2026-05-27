@@ -6,9 +6,10 @@ public:
             if(isupper(it)){
                 up|=1<<(it-'A');
             }else{
-                low|=1<<(it-'a');
                 if((up & 1<<(it-'a') )){
                     low&=~(1<<(it-'a'));
+                }else{
+                    low|=1<<(it-'a');
                 }
             }
         }
