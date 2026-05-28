@@ -116,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 | [3024-type-of-triangle](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3024-type-of-triangle) |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
+| [3093-longest-common-suffix-queries](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3093-longest-common-suffix-queries) |
 | [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3212-count-submatrices-with-equal-frequency-of-x-and-y) |
 | [3232-find-if-digit-game-can-be-won](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3232-find-if-digit-game-can-be-won) |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3418-maximum-amount-of-money-robot-can-earn) |
@@ -360,6 +361,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2452-words-within-two-edits-of-dictionary](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2452-words-within-two-edits-of-dictionary) |
 | [2573-find-the-string-with-lcp](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2573-find-the-string-with-lcp) |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
+| [3093-longest-common-suffix-queries](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3093-longest-common-suffix-queries) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3120-count-the-number-of-special-characters-i) |
 | [3121-count-the-number-of-special-characters-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3121-count-the-number-of-special-characters-ii) |
 | [3474-lexicographically-smallest-generated-string](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3474-lexicographically-smallest-generated-string) |
@@ -419,6 +421,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0014-longest-common-prefix](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0014-longest-common-prefix) |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2452-words-within-two-edits-of-dictionary) |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
+| [3093-longest-common-suffix-queries](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3093-longest-common-suffix-queries) |
 ## Hash Table
 |  |
 | ------- |
