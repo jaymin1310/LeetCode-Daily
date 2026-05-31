@@ -6,7 +6,7 @@ public:
         long long currMass=mass;
         for(int i=0;i<n;i++){
             if(ast[i]>currMass)return false;
-            currMass+=(long long)ast[i];
+            currMass+=ast[i];
         }
         return true;
     }
