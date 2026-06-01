@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0090-subsets-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0090-subsets-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+| [0118-pascals-triangle](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0118-pascals-triangle) |
 | [0120-triangle](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0120-triangle) |
 | [0130-surrounded-regions](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0130-surrounded-regions) |
 | [0135-candy](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0135-candy) |
@@ -169,6 +170,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0063-unique-paths-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0064-minimum-path-sum) |
 | [0085-maximal-rectangle](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0085-maximal-rectangle) |
+| [0118-pascals-triangle](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0118-pascals-triangle) |
 | [0120-triangle](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0120-triangle) |
 | [0131-palindrome-partitioning](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0131-palindrome-partitioning) |
 | [0152-maximum-product-subarray](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0152-maximum-product-subarray) |
