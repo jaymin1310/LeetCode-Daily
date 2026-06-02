@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0118-pascals-triangle](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0118-pascals-triangle) |
 | [0120-triangle](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0120-triangle) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0130-surrounded-regions](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0130-surrounded-regions) |
 | [0135-candy](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0135-candy) |
 | [0136-single-number](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0136-single-number) |
@@ -175,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0085-maximal-rectangle](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0085-maximal-rectangle) |
 | [0118-pascals-triangle](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0118-pascals-triangle) |
 | [0120-triangle](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0120-triangle) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0131-palindrome-partitioning](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0131-palindrome-partitioning) |
 | [0152-maximum-product-subarray](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0198-house-robber) |
