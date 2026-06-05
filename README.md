@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0162-find-peak-element](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0169-majority-element](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0169-majority-element) |
 | [0198-house-robber](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0200-number-of-islands) |
 | [0204-count-primes](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0204-count-primes) |
@@ -295,6 +296,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0148-sort-list](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0148-sort-list) |
+| [0169-majority-element](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0215-kth-largest-element-in-an-array) |
 | [0240-search-a-2d-matrix-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0240-search-a-2d-matrix-ii) |
 | [0347-top-k-frequent-elements](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0347-top-k-frequent-elements) |
@@ -470,6 +472,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0142-linked-list-cycle-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0160-intersection-of-two-linked-lists) |
+| [0169-majority-element](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0169-majority-element) |
 | [0205-isomorphic-strings](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0347-top-k-frequent-elements) |
@@ -516,6 +519,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0088-merge-sorted-array](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0088-merge-sorted-array) |
 | [0148-sort-list](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0148-sort-list) |
+| [0169-majority-element](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0215-kth-largest-element-in-an-array) |
 | [0242-valid-anagram](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0242-valid-anagram) |
 | [0295-find-median-from-data-stream](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0295-find-median-from-data-stream) |
@@ -564,6 +568,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0347-top-k-frequent-elements) |
 | [0387-first-unique-character-in-a-string](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0387-first-unique-character-in-a-string) |
 | [0451-sort-characters-by-frequency](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0451-sort-characters-by-frequency) |
