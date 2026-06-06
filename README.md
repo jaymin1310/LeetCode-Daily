@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0216-combination-sum-iii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0216-combination-sum-iii) |
 | [0239-sliding-window-maximum](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0239-sliding-window-maximum) |
 | [0240-search-a-2d-matrix-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0240-search-a-2d-matrix-ii) |
+| [0287-find-the-duplicate-number](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0287-find-the-duplicate-number) |
 | [0322-coin-change](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0347-top-k-frequent-elements) |
 | [0396-rotate-function](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0396-rotate-function) |
@@ -154,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0222-count-complete-tree-nodes](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0222-count-complete-tree-nodes) |
 | [0240-search-a-2d-matrix-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0240-search-a-2d-matrix-ii) |
+| [0287-find-the-duplicate-number](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0287-find-the-duplicate-number) |
 | [0410-split-array-largest-sum](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0410-split-array-largest-sum) |
 | [0540-single-element-in-a-sorted-array](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0540-single-element-in-a-sorted-array) |
 | [0778-swim-in-rising-water](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0778-swim-in-rising-water) |
@@ -441,6 +443,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0160-intersection-of-two-linked-lists](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0160-intersection-of-two-linked-lists) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0234-palindrome-linked-list](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0234-palindrome-linked-list) |
+| [0287-find-the-duplicate-number](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0287-find-the-duplicate-number) |
 | [0295-find-median-from-data-stream](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0295-find-median-from-data-stream) |
 | [0455-assign-cookies](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0455-assign-cookies) |
 | [0696-count-binary-substrings](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0696-count-binary-substrings) |
@@ -670,6 +673,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0136-single-number) |
 | [0222-count-complete-tree-nodes](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0222-count-complete-tree-nodes) |
 | [0231-power-of-two](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0231-power-of-two) |
+| [0287-find-the-duplicate-number](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0287-find-the-duplicate-number) |
 | [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
 | [0868-binary-gap](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0868-binary-gap) |
 | [1009-complement-of-base-10-integer](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1009-complement-of-base-10-integer) |
