@@ -453,6 +453,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0455-assign-cookies) |
 | [0696-count-binary-substrings](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0696-count-binary-substrings) |
 | [0908-middle-of-the-linked-list](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0908-middle-of-the-linked-list) |
+| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 | [2231-find-first-palindromic-string-in-the-array](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2231-find-first-palindromic-string-in-the-array) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
@@ -613,6 +614,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0382-linked-list-random-node](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0382-linked-list-random-node) |
 | [0460-lfu-cache](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0460-lfu-cache) |
 | [0908-middle-of-the-linked-list](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0908-middle-of-the-linked-list) |
+| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 ## Recursion
 |  |
