@@ -217,6 +217,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2770-maximum-number-of-jumps-to-reach-the-last-index) |
 | [3129-find-all-possible-stable-binary-arrays-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3129-find-all-possible-stable-binary-arrays-i) |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3418-maximum-amount-of-money-robot-can-earn) |
+| [3699-number-of-zigzag-arrays-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3699-number-of-zigzag-arrays-i) |
 | [3742-maximum-path-score-in-a-grid](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3742-maximum-path-score-in-a-grid) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 | [3753-total-waviness-of-numbers-in-range-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3753-total-waviness-of-numbers-in-range-ii) |
@@ -296,6 +297,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2906-construct-product-matrix](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2906-construct-product-matrix) |
 | [3129-find-all-possible-stable-binary-arrays-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3129-find-all-possible-stable-binary-arrays-i) |
 | [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3212-count-submatrices-with-equal-frequency-of-x-and-y) |
+| [3699-number-of-zigzag-arrays-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3699-number-of-zigzag-arrays-i) |
 | [3719-longest-balanced-subarray-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3719-longest-balanced-subarray-i) |
 ## Divide and Conquer
 |  |
