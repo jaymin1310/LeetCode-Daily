@@ -140,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3643-flip-square-submatrix-vertically](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3643-flip-square-submatrix-vertically) |
 | [3689-maximum-total-subarray-value-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3689-maximum-total-subarray-value-i) |
 | [3719-longest-balanced-subarray-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3719-longest-balanced-subarray-i) |
+| [3739-count-subarrays-with-majority-element-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3739-count-subarrays-with-majority-element-ii) |
 | [3740-minimum-distance-between-three-equal-elements-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3740-minimum-distance-between-three-equal-elements-i) |
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
 | [3742-maximum-path-score-in-a-grid](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3742-maximum-path-score-in-a-grid) |
@@ -301,6 +302,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3212-count-submatrices-with-equal-frequency-of-x-and-y) |
 | [3699-number-of-zigzag-arrays-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3699-number-of-zigzag-arrays-i) |
 | [3719-longest-balanced-subarray-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3719-longest-balanced-subarray-i) |
+| [3739-count-subarrays-with-majority-element-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3739-count-subarrays-with-majority-element-ii) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -315,6 +317,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0240-search-a-2d-matrix-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0240-search-a-2d-matrix-ii) |
 | [0347-top-k-frequent-elements](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0347-top-k-frequent-elements) |
 | [3719-longest-balanced-subarray-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3719-longest-balanced-subarray-i) |
+| [3739-count-subarrays-with-majority-element-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3739-count-subarrays-with-majority-element-ii) |
 ## Matrix
 |  |
 | ------- |
@@ -528,6 +531,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 | [3713-longest-balanced-substring-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3713-longest-balanced-substring-i) |
 | [3719-longest-balanced-subarray-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3719-longest-balanced-subarray-i) |
+| [3739-count-subarrays-with-majority-element-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3739-count-subarrays-with-majority-element-ii) |
 | [3740-minimum-distance-between-three-equal-elements-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3740-minimum-distance-between-three-equal-elements-i) |
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
 ## String Matching
@@ -643,6 +647,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0023-merge-k-sorted-lists) |
 | [0148-sort-list](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0148-sort-list) |
+| [3739-count-subarrays-with-majority-element-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3739-count-subarrays-with-majority-element-ii) |
 ## Simulation
 |  |
 | ------- |
@@ -958,6 +963,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1622-fancy-sequence](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1622-fancy-sequence) |
 | [3719-longest-balanced-subarray-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3719-longest-balanced-subarray-i) |
+| [3739-count-subarrays-with-majority-element-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3739-count-subarrays-with-majority-element-ii) |
 ## Graph Theory
 |  |
 | ------- |
