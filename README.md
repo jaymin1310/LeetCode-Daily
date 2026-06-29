@@ -106,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1848-minimum-distance-to-the-target-element](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1848-minimum-distance-to-the-target-element) |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1886-determine-whether-matrix-can-be-obtained-by-rotation) |
 | [1914-cyclically-rotating-a-grid](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1914-cyclically-rotating-a-grid) |
+| [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [1980-find-unique-binary-string](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1980-find-unique-binary-string) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2047-find-a-peak-element-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2047-find-a-peak-element-ii) |
@@ -402,6 +403,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1871-jump-game-vii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1871-jump-game-vii) |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1888-minimum-number-of-flips-to-make-the-binary-string-alternating) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1890-sum-of-beauty-of-all-substrings) |
+| [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [1980-find-unique-binary-string](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1980-find-unique-binary-string) |
 | [2032-largest-odd-number-in-string](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2032-largest-odd-number-in-string) |
 | [2219-maximum-number-of-words-found-in-sentences](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2219-maximum-number-of-words-found-in-sentences) |
