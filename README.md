@@ -126,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2751-robot-collisions](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2751-robot-collisions) |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2770-maximum-number-of-jumps-to-reach-the-last-index) |
 | [2784-check-if-array-is-good](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2784-check-if-array-is-good) |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [2876-number-of-employees-who-met-the-target](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2876-number-of-employees-who-met-the-target) |
 | [2906-construct-product-matrix](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2906-construct-product-matrix) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
@@ -174,6 +175,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1631-path-with-minimum-effort](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1631-path-with-minimum-effort) |
 | [1646-kth-missing-positive-number](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1646-kth-missing-positive-number) |
 | [2047-find-a-peak-element-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2047-find-a-peak-element-ii) |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3488-closest-equal-element-queries](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3488-closest-equal-element-queries) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
@@ -353,6 +355,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2047-find-a-peak-element-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2047-find-a-peak-element-ii) |
 | [2573-find-the-string-with-lcp](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2573-find-the-string-with-lcp) |
 | [2737-row-with-maximum-ones](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2737-row-with-maximum-ones) |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [2906-construct-product-matrix](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2906-construct-product-matrix) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 | [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3212-count-submatrices-with-equal-frequency-of-x-and-y) |
@@ -592,6 +595,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0778-swim-in-rising-water](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0778-swim-in-rising-water) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1631-path-with-minimum-effort](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1631-path-with-minimum-effort) |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2812-find-the-safest-path-in-a-grid) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -960,6 +964,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1559-detect-cycles-in-2d-grid](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1631-path-with-minimum-effort](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1631-path-with-minimum-effort) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 ## Geometry
 |  |
@@ -1020,6 +1025,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1631-path-with-minimum-effort](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1631-path-with-minimum-effort) |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1722-minimize-hamming-distance-after-swap-operations) |
 | [2573-find-the-string-with-lcp](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2573-find-the-string-with-lcp) |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2812-find-the-safest-path-in-a-grid) |
 ## Shortest Path
 |  |
 | ------- |
