@@ -54,7 +54,7 @@ public:
                 }
             }
         }
-        int low=0,ans=0;
+        int low=0;
         int high=min(dist[0][0],dist[n-1][n-1]);
         while(low<=high){
             int mid=low+(high-low)/2;
@@ -62,12 +62,11 @@ public:
             bool isPos=bsOnAns(mid,dist,vis);
             if(isPos){
                 low=mid+1;
-                ans=mid;
             }else{
                 high=mid-1;
             }
         }
-        return ans;
+        return high;
 
     }
 };
