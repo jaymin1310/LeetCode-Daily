@@ -9,8 +9,8 @@ struct Node{
     }
 };
 class BrowserHistory {
-    Node* head=new Node("");
-    Node* traverse=head;
+    Node* head;
+    Node* traverse;
     void clearAll(Node* temp){
         while(temp){
             Node* nextNode=temp->next;
@@ -45,6 +45,9 @@ public:
             traverse=traverse->next;
         }
         return traverse->data;
+    }
+     ~BrowserHistory() {
+        clearAll(head);
     }
 };
 
