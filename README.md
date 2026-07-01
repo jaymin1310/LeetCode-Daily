@@ -91,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1463-cherry-pickup-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1463-cherry-pickup-ii) |
+| [1472-design-browser-history](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1472-design-browser-history) |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1559-detect-cycles-in-2d-grid) |
@@ -441,6 +442,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0943-sum-of-subarray-minimums](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0943-sum-of-subarray-minimums) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1078-remove-outermost-parentheses](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1078-remove-outermost-parentheses) |
+| [1472-design-browser-history](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1472-design-browser-history) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [2227-sum-of-subarray-ranges](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2227-sum-of-subarray-ranges) |
 | [2751-robot-collisions](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2751-robot-collisions) |
@@ -632,6 +634,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0382-linked-list-random-node](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0382-linked-list-random-node) |
 | [0460-lfu-cache](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0460-lfu-cache) |
 | [0908-middle-of-the-linked-list](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0908-middle-of-the-linked-list) |
+| [1472-design-browser-history](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1472-design-browser-history) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 ## Recursion
@@ -780,6 +783,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0460-lfu-cache](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0460-lfu-cache) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0937-online-stock-span](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0937-online-stock-span) |
+| [1472-design-browser-history](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1472-design-browser-history) |
 | [1622-fancy-sequence](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1622-fancy-sequence) |
 ## Monotonic Stack
 |  |
@@ -820,11 +824,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0295-find-median-from-data-stream](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0295-find-median-from-data-stream) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0937-online-stock-span](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0937-online-stock-span) |
+| [1472-design-browser-history](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1472-design-browser-history) |
 ## Doubly-Linked List
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0146-lru-cache) |
 | [0460-lfu-cache](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0460-lfu-cache) |
+| [1472-design-browser-history](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1472-design-browser-history) |
 ## Quickselect
 |  |
 | ------- |
