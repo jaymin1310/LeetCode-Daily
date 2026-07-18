@@ -109,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1886-determine-whether-matrix-can-be-obtained-by-rotation) |
 | [1914-cyclically-rotating-a-grid](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1914-cyclically-rotating-a-grid) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [1980-find-unique-binary-string](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1980-find-unique-binary-string) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2047-find-a-peak-element-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2047-find-a-peak-element-ii) |
@@ -258,6 +259,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1248-count-number-of-nice-subarrays](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1248-count-number-of-nice-subarrays) |
 | [1266-minimum-time-visiting-all-points](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1266-minimum-time-visiting-all-points) |
 | [1622-fancy-sequence](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1622-fancy-sequence) |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2032-largest-odd-number-in-string](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2032-largest-odd-number-in-string) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2050-count-good-numbers](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2050-count-good-numbers) |
@@ -689,6 +691,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0204-count-primes](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0204-count-primes) |
 | [0258-add-digits](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0258-add-digits) |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2609-distinct-prime-factors-of-product-of-array](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2609-distinct-prime-factors-of-product-of-array) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 ## Backtracking
