@@ -6,21 +6,23 @@ public:
         for(int i=0;i<nums.size();i++){
             sum+=nums[i];
         }
-        vector<vector<int>> dp(n+1, vector<int>(2*sum+1,0));
+        vector<int>dp(2*sum+1,0);
         if(target >= -sum && target <= sum)
-            dp[n][target + sum] = 1;
+            dp[target + sum] = 1;
         for(int i=n-1;i>=0;i--){
+            vector<int>temp(2*sum+1,0);
             for(int currsum=-sum;currsum<=sum;currsum++){
                 int ways=0;
                 if(currsum-nums[i]>=-sum){
-                    ways+=dp[i+1][currsum-nums[i]+sum];
+                    ways+=dp[currsum-nums[i]+sum];
                 }
                 if(currsum+nums[i]<=sum){
-                    ways+=dp[i+1][currsum+nums[i]+sum];
+                    ways+=dp[currsum+nums[i]+sum];
                 }
-                dp[i][currsum+sum]=ways;
+                temp[currsum+sum]=ways;
             }
+            dp=temp;
         }
-        return dp[0][sum];
+        return dp[sum];
     }
 };
