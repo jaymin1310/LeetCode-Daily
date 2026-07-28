@@ -435,6 +435,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3120-count-the-number-of-special-characters-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3120-count-the-number-of-special-characters-i) |
 | [3121-count-the-number-of-special-characters-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3121-count-the-number-of-special-characters-ii) |
 | [3474-lexicographically-smallest-generated-string](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3474-lexicographically-smallest-generated-string) |
+| [3517-smallest-palindromic-rearrangement-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3517-smallest-palindromic-rearrangement-i) |
 | [3713-longest-balanced-substring-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3713-longest-balanced-substring-i) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 | [3838-weighted-word-mapping](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3838-weighted-word-mapping) |
@@ -595,6 +596,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2751-robot-collisions](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2751-robot-collisions) |
 | [2784-check-if-array-is-good](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2784-check-if-array-is-good) |
 | [3024-type-of-triangle](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3024-type-of-triangle) |
+| [3517-smallest-palindromic-rearrangement-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3517-smallest-palindromic-rearrangement-i) |
 | [3536-maximum-product-of-two-digits](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3536-maximum-product-of-two-digits) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
@@ -1080,4 +1082,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0062-unique-paths) |
+## Counting Sort
+|  |
+| ------- |
+| [3517-smallest-palindromic-rearrangement-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3517-smallest-palindromic-rearrangement-i) |
 <!---LeetCode Topics End-->
