@@ -60,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0416-partition-equal-subset-sum](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0455-assign-cookies) |
+| [0486-predict-the-winner](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0486-predict-the-winner) |
 | [0494-target-sum](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0503-next-greater-element-ii) |
@@ -210,6 +211,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0410-split-array-largest-sum](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0435-non-overlapping-intervals) |
+| [0486-predict-the-winner](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0486-predict-the-winner) |
 | [0494-target-sum](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0494-target-sum) |
 | [0509-fibonacci-number](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0509-fibonacci-number) |
 | [0518-coin-change-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0518-coin-change-ii) |
@@ -255,6 +257,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0282-expression-add-operators](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0282-expression-add-operators) |
 | [0382-linked-list-random-node](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0382-linked-list-random-node) |
 | [0396-rotate-function](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0396-rotate-function) |
+| [0486-predict-the-winner](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0509-fibonacci-number) |
 | [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
 | [0788-rotated-digits](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0788-rotated-digits) |
@@ -674,6 +677,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0206-reverse-linked-list](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0206-reverse-linked-list) |
 | [0231-power-of-two](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0231-power-of-two) |
 | [0234-palindrome-linked-list](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0234-palindrome-linked-list) |
+| [0486-predict-the-winner](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0509-fibonacci-number) |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1545-find-kth-bit-in-nth-binary-string) |
 | [2050-count-good-numbers](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2050-count-good-numbers) |
@@ -1086,4 +1090,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3517-smallest-palindromic-rearrangement-i) |
+## Game Theory
+|  |
+| ------- |
+| [0486-predict-the-winner](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0486-predict-the-winner) |
 <!---LeetCode Topics End-->
