@@ -54,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0240-search-a-2d-matrix-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0240-search-a-2d-matrix-ii) |
 | [0287-find-the-duplicate-number](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0287-find-the-duplicate-number) |
 | [0322-coin-change](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0322-coin-change) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0347-top-k-frequent-elements](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0347-top-k-frequent-elements) |
 | [0396-rotate-function](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0396-rotate-function) |
 | [0410-split-array-largest-sum](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0410-split-array-largest-sum) |
@@ -208,6 +209,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0213-house-robber-ii) |
 | [0322-coin-change](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0322-coin-change) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0396-rotate-function](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0396-rotate-function) |
 | [0410-split-array-largest-sum](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0416-partition-equal-subset-sum) |
@@ -357,6 +359,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0200-number-of-islands) |
 | [0240-search-a-2d-matrix-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0240-search-a-2d-matrix-ii) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0542-01-matrix](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0542-01-matrix) |
 | [0778-swim-in-rising-water](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0778-swim-in-rising-water) |
 | [0827-making-a-large-island](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0827-making-a-large-island) |
@@ -772,6 +775,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0543-diameter-of-binary-tree](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0543-diameter-of-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0662-maximum-width-of-binary-tree) |
 | [0721-accounts-merge](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0721-accounts-merge) |
@@ -984,6 +988,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0210-course-schedule-ii) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0322-coin-change](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0322-coin-change) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0542-01-matrix](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0542-01-matrix) |
 | [0662-maximum-width-of-binary-tree](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0662-maximum-width-of-binary-tree) |
 | [0721-accounts-merge](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0721-accounts-merge) |
@@ -1026,6 +1031,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0207-course-schedule](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0210-course-schedule-ii) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0743-network-delay-time](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0787-cheapest-flights-within-k-stops) |
@@ -1044,6 +1050,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0207-course-schedule](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0210-course-schedule-ii) |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0802-find-eventual-safe-states](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0802-find-eventual-safe-states) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 | [3620-network-recovery-pathways](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3620-network-recovery-pathways) |
@@ -1089,6 +1096,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Memoization
 |  |
 | ------- |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0509-fibonacci-number](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0509-fibonacci-number) |
 ## Combinatorics
 |  |
@@ -1119,4 +1127,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1510-stone-game-iv](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1510-stone-game-iv) |
+## Directed Acyclic Graph
+|  |
+| ------- |
+| [0329-longest-increasing-path-in-a-matrix](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0329-longest-increasing-path-in-a-matrix) |
 <!---LeetCode Topics End-->
