@@ -285,6 +285,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3232-find-if-digit-game-can-be-won](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3232-find-if-digit-game-can-be-won) |
 | [3536-maximum-product-of-two-digits](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3536-maximum-product-of-two-digits) |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
+| [3622-check-divisibility-by-digit-sum-and-product](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3622-check-divisibility-by-digit-sum-and-product) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 | [3700-number-of-zigzag-arrays-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3700-number-of-zigzag-arrays-ii) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3751-total-waviness-of-numbers-in-range-i) |
