@@ -273,6 +273,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1266-minimum-time-visiting-all-points](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1266-minimum-time-visiting-all-points) |
 | [1510-stone-game-iv](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1510-stone-game-iv) |
 | [1622-fancy-sequence](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1622-fancy-sequence) |
+| [1927-sum-game](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1927-sum-game) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2032-largest-odd-number-in-string](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2032-largest-odd-number-in-string) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
@@ -309,6 +310,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1727-largest-submatrix-with-rearrangements) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
+| [1927-sum-game](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1927-sum-game) |
 | [2032-largest-odd-number-in-string](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2032-largest-odd-number-in-string) |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2078-two-furthest-houses-with-different-colors) |
 | [2126-destroying-asteroids](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2126-destroying-asteroids) |
@@ -437,6 +439,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1871-jump-game-vii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1871-jump-game-vii) |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1888-minimum-number-of-flips-to-make-the-binary-string-alternating) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1890-sum-of-beauty-of-all-substrings) |
+| [1927-sum-game](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1927-sum-game) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [1980-find-unique-binary-string](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1980-find-unique-binary-string) |
 | [2032-largest-odd-number-in-string](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2032-largest-odd-number-in-string) |
@@ -1123,6 +1126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0486-predict-the-winner](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0486-predict-the-winner) |
 | [1510-stone-game-iv](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1510-stone-game-iv) |
+| [1927-sum-game](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1927-sum-game) |
 ## Minimax
 |  |
 | ------- |
