@@ -149,6 +149,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3418-maximum-amount-of-money-robot-can-earn) |
 | [3488-closest-equal-element-queries](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3488-closest-equal-element-queries) |
+| [3524-find-x-value-of-array-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3524-find-x-value-of-array-i) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3568-minimum-moves-to-clean-the-classroom) |
 | [3620-network-recovery-pathways](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3620-network-recovery-pathways) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
@@ -251,6 +252,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2770-maximum-number-of-jumps-to-reach-the-last-index) |
 | [3129-find-all-possible-stable-binary-arrays-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3129-find-all-possible-stable-binary-arrays-i) |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3418-maximum-amount-of-money-robot-can-earn) |
+| [3524-find-x-value-of-array-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3524-find-x-value-of-array-i) |
 | [3620-network-recovery-pathways](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3620-network-recovery-pathways) |
 | [3699-number-of-zigzag-arrays-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3699-number-of-zigzag-arrays-i) |
 | [3700-number-of-zigzag-arrays-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3700-number-of-zigzag-arrays-ii) |
@@ -296,6 +298,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3024-type-of-triangle](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3024-type-of-triangle) |
 | [3172-divisible-and-non-divisible-sums-difference](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3172-divisible-and-non-divisible-sums-difference) |
 | [3232-find-if-digit-game-can-be-won](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3232-find-if-digit-game-can-be-won) |
+| [3524-find-x-value-of-array-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3524-find-x-value-of-array-i) |
 | [3536-maximum-product-of-two-digits](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3536-maximum-product-of-two-digits) |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
 | [3622-check-divisibility-by-digit-sum-and-product](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3622-check-divisibility-by-digit-sum-and-product) |
