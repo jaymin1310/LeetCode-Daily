@@ -167,6 +167,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
 | [3742-maximum-path-score-in-a-grid](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3742-maximum-path-score-in-a-grid) |
 | [3838-weighted-word-mapping](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3838-weighted-word-mapping) |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3841-palindromic-path-queries-in-a-tree) |
 | [3875-construct-uniform-parity-array-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3875-construct-uniform-parity-array-i) |
 | [3876-construct-uniform-parity-array-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3876-construct-uniform-parity-array-ii) |
 | [3882-minimum-xor-path-in-a-grid](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3882-minimum-xor-path-in-a-grid) |
@@ -379,6 +380,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0347-top-k-frequent-elements) |
 | [3719-longest-balanced-subarray-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3719-longest-balanced-subarray-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3739-count-subarrays-with-majority-element-ii) |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3841-palindromic-path-queries-in-a-tree) |
 ## Matrix
 |  |
 | ------- |
@@ -493,6 +495,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3713-longest-balanced-substring-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3713-longest-balanced-substring-i) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 | [3838-weighted-word-mapping](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3838-weighted-word-mapping) |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3841-palindromic-path-queries-in-a-tree) |
 ## Stack
 |  |
 | ------- |
@@ -812,6 +815,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2323-minimum-bit-flips-to-convert-number) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3568-minimum-moves-to-clean-the-classroom) |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3841-palindromic-path-queries-in-a-tree) |
 | [3882-minimum-xor-path-in-a-grid](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3882-minimum-xor-path-in-a-grid) |
 ## Depth-First Search
 |  |
@@ -862,6 +866,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [3310-remove-methods-from-project](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3310-remove-methods-from-project) |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3841-palindromic-path-queries-in-a-tree) |
 ## Queue
 |  |
 | ------- |
@@ -980,6 +985,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3841-palindromic-path-queries-in-a-tree) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -1094,6 +1100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2213-longest-substring-of-one-repeating-character](https://github.com/jaymin1310/LeetCode-Daily/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [3719-longest-balanced-subarray-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3719-longest-balanced-subarray-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3739-count-subarrays-with-majority-element-ii) |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3841-palindromic-path-queries-in-a-tree) |
 ## Graph Theory
 |  |
 | ------- |
@@ -1216,4 +1223,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/jaymin1310/LeetCode-Daily/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
+## Binary Indexed Tree
+|  |
+| ------- |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/jaymin1310/LeetCode-Daily/tree/master/3841-palindromic-path-queries-in-a-tree) |
 <!---LeetCode Topics End-->
