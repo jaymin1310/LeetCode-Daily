@@ -62,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0435-non-overlapping-intervals](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0435-non-overlapping-intervals) |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0455-assign-cookies](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0455-assign-cookies) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0486-predict-the-winner](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0486-predict-the-winner) |
 | [0494-target-sum](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0496-next-greater-element-i) |
@@ -283,6 +284,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0382-linked-list-random-node](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0382-linked-list-random-node) |
 | [0396-rotate-function](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0396-rotate-function) |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0453-minimum-moves-to-equal-array-elements) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0486-predict-the-winner](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0509-fibonacci-number) |
 | [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
@@ -649,6 +651,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0435-non-overlapping-intervals](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0435-non-overlapping-intervals) |
 | [0451-sort-characters-by-frequency](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0451-sort-characters-by-frequency) |
 | [0455-assign-cookies](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0455-assign-cookies) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0621-task-scheduler](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0621-task-scheduler) |
 | [0721-accounts-merge](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0721-accounts-merge) |
 | [0846-hand-of-straights](https://github.com/jaymin1310/LeetCode-Daily/tree/master/0846-hand-of-straights) |
